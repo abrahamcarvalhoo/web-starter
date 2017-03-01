@@ -1,27 +1,64 @@
-# ![Web Starter Kit](source/assets/images/og-image.png)
+# ![Alt](https://raw.githubusercontent.com/abrahamcarvalhoo/web-starter-kit/master/source/assets/images/og-image.png)
 
-[![CircleCI](https://circleci.com/gh/abrahamcarvalhoo/web-starter-kit.svg?style=svg)](https://circleci.com/gh/abrahamcarvalhoo/web-starter-kit) [![Dependency Status](http://img.shields.io/gemnasium/abrahamcarvalhoo/web-starter-kit.svg?style=flat)](https://gemnasium.com/abrahamcarvalhoo/web-starter-kit) [![Test Coverage](https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit/badges/coverage.svg)](https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit/coverage) [![Code Climate](https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit/badges/gpa.svg)](https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit) [![License](https://codeship.com/projects/3981fab0-e088-0134-8f7a-5ecc5558b622/status?branch=master)](https://app.codeship.com/projects/205237) [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
+[![Build Status][build-badge]][build-url]
+[![Dependency Status][dependency-badge]][dependency-url]
+[![DevDependency Status][dev-dep-badge]][dev-dep-url]
+[![Code Climate][codeclimate-badge]][codeclimate-url]
+[![Test Coverage][testcoverage-badge]][testcoverage-url]
+[![Licensing][license-badge]][license-url]
+[![Issue tracking][issues-badge]][issues-url]
+
+[build-badge]: https://img.shields.io/circleci/project/github/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[build-url]: https://circleci.com/gh/abrahamcarvalhoo/web-starter-kit
+
+[dependency-badge]: https://img.shields.io/david/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[dependency-url]: https://david-dm.org/abrahamcarvalhoo/web-starter-kit
+
+[dev-dep-badge]: https://img.shields.io/david/dev/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[dev-dep-url]: https://david-dm.org/abrahamcarvalhoo/web-starter-kit?type=dev
+
+[license-badge]: https://img.shields.io/github/license/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[license-url]: #license
+
+[codeclimate-badge]: https://img.shields.io/codeclimate/github/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[codeclimate-url]: https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit
+
+[testcoverage-badge]: https://img.shields.io/codeclimate/coverage/github/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[testcoverage-url]: https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit/coverage
+
+[issues-badge]: https://img.shields.io/github/issues/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[issues-url]: https://github.com/abrahamcarvalhoo/web-starter-kit/issues
 
 ## Overview
+
 **Web Starter Kit** is a front-end template that helps you build fast based on Gulp, Node, NPM, Bower, BrowserSync, Sass, and Pug.
 
 ## Setup
 
-> Before you can install dependencies, you will need to install [Gulp](http://gulpjs.com/), [Node](https://nodejs.org/), [NPM](https://www.npmjs.com/), and [Bower](http://bower.io/).
+>:exclamation: Before you can install dependencies, you will need to install [Node](https://nodejs.org/), [NPM](https://www.npmjs.com/).
 
 ```
-$ npm cache clear && npm install && bower cache clean && bower install
+# Install global dependencies
+$ npm install -g gulp-cli bower
+
+# Clone the repo (and fetch only the latest commits)
+$ git clone --depth=1 git@github.com:abrahamcarvalhoo/web-starter-kit.git
+$ cd web-starter-kit
+
+# Install local dependencies
+$ npm install
+$ bower install
 ```
 
-## Available Tasks
+## Usage
 
-> Run the default `watch` task.
+> Run the default `server` task.
 
 ```
 $ gulp
 ```
 
-> Minifies both the styles and scripts and outputs to the `build/` directory.
+> Build the assets and outputs to the `build/` directory.
 
 ```
 $ gulp build
@@ -69,3 +106,30 @@ $ gulp public
 $ gulp clean
 ```
 
+## Contributing
+
+If something is unclear, confusing, or needs to be refactored, please let me know. Pull requests are always welcome!
+
+## License
+
+MIT License
+
+Copyright (c) 2017 Abraham Carvalho
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
