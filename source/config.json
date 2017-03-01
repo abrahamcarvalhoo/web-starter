@@ -1,0 +1,14 @@
+{
+  "color": "#21bbef",
+  "title": "Web Starter Kit",
+  "site_url": "http://www.domain.com",
+  "keywords" : "gulp, node, npm, bower, browsersync, sass, pug",
+  "description": "A front-end template that helps you build fast.",
+  "facebook_id" : "1234567890",
+  "twitter_id": "@web_starter_kit",
+  "plus_id" : "+web_starter_kit",
+  "google_analytics": "UA-XXXXX-Y",
+  "google_verification" : "dhsoFQadgDKJR7BsB6bc1j5yfqjUp1pFjr7o3x",
+  "generator": "A front-end template that helps you build fast.",
+  "author": "Abraham Carvalho"
+}

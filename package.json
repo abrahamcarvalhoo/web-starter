@@ -1,0 +1,56 @@
+{
+  "name": "web-starter-kit",
+  "title": "Web Starter Kit",
+  "description": "A front-end template that helps you build fast.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "homepage": "https://github.com/abrahamcarvalhoo/web-starter-kit",
+  "author": {
+    "name": "Abraham Carvalho",
+    "email": "abraham.carvalhoo@gmail.com",
+    "url": "http://abrahamcarvalhoo.github.io"
+  },
+  "keywords": [
+    "gulp",
+    "node",
+    "npm",
+    "bower",
+    "browsersync",
+    "sass",
+    "pug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abrahamcarvalhoo/web-starter-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abrahamcarvalhoo/web-starter-kit/issues"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-data": "^1.2.1",
+    "gulp-include": "^2.3.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "run-sequence": "^1.2.2"
+  }
+}
