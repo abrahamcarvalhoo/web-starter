@@ -1,5 +1,6 @@
 {
   "name": "Web Starter Kit",
+  "short_name": "WSK",
   "icons": [
     {
       "src": "/assets/images/touch/android-chrome-36x36.png",
@@ -40,4 +41,5 @@
   "display": "standalone",
   "theme_color": "#2979ff",
   "background_color": "#2979ff",
+  "start_url": "/index.html?homescreen=1"
 }
