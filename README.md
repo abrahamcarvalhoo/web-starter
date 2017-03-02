@@ -18,7 +18,7 @@
 [dev-dep-url]: https://david-dm.org/abrahamcarvalhoo/web-starter-kit?type=dev
 
 [license-badge]: https://img.shields.io/github/license/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
-[license-url]: #license
+[license-url]: https://github.com/abrahamcarvalhoo/web-starter-kit/blob/master/LICENSE
 
 [codeclimate-badge]: https://img.shields.io/codeclimate/github/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/abrahamcarvalhoo/web-starter-kit
@@ -42,7 +42,7 @@
 $ npm install -g gulp-cli bower
 
 # Clone the repo (and fetch only the latest commits)
-$ git clone --depth=1 git@github.com:abrahamcarvalhoo/web-starter-kit.git
+$ git clone https://github.com/abrahamcarvalhoo/web-starter-kit.git
 $ cd web-starter-kit
 
 # Install local dependencies
