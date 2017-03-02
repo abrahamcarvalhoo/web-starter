@@ -1,15 +1,20 @@
 $primary-font: "Roboto Mono"
+$primary-color: #2979ff
+$second-color: #fff
 
 @import url(https://fonts.googleapis.com/css?family=#{$primary-font}:300,700)
+
+::selection
+  color: $primary-color
+  background-color: $second-color
 
 body
   border: 0
   margin: 0
   padding: 0
-  color: #fff
-  background-color: #2979ff
+  color: $second-color
+  background-color: $primary-color
   font-family: $primary-font, Arial, sans-serif
-
 .hero
   display: flex
   min-height: 100vh
@@ -18,9 +23,11 @@ body
   justify-content: center
 
 .hero__title
+  margin: 0
   font-size: 60px
   font-weight: 700
 
 .hero__subtitle
+  margin: 0
   font-size: 32px
   font-weight: 300
