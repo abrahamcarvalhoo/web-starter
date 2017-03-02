@@ -1,12 +1,14 @@
-# ![Alt](https://raw.githubusercontent.com/abrahamcarvalhoo/web-starter-kit/master/source/assets/images/og-image.png)
+# [![Web Starter Kit](https://raw.githubusercontent.com/abrahamcarvalhoo/web-starter-kit/master/source/assets/images/og-image.png "Web Starter Kit")][github-url]
 
 [![Build Status][build-badge]][build-url]
 [![Dependency Status][dependency-badge]][dependency-url]
 [![DevDependency Status][dev-dep-badge]][dev-dep-url]
 [![Code Climate][codeclimate-badge]][codeclimate-url]
 [![Test Coverage][testcoverage-badge]][testcoverage-url]
-[![Licensing][license-badge]][license-url]
 [![Issue tracking][issues-badge]][issues-url]
+[![Licensing][license-badge]][license-url]
+
+[github-url]: https://github.com/abrahamcarvalhoo/web-starter-kit
 
 [build-badge]: https://img.shields.io/circleci/project/github/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
 [build-url]: https://circleci.com/gh/abrahamcarvalhoo/web-starter-kit
@@ -37,7 +39,7 @@
 
 >:exclamation: Before you can install dependencies, you will need to install [Node](https://nodejs.org/), [NPM](https://www.npmjs.com/).
 
-```
+```bash
 # Install global dependencies
 $ npm install -g gulp-cli bower
 
@@ -54,55 +56,55 @@ $ bower install
 
 > Run the default `server` task.
 
-```
+```bash
 $ gulp
 ```
 
 > Build the assets and outputs to the `build/` directory.
 
-```
+```bash
 $ gulp build
 ```
 
 > Build styles with pre-processors
 
-```
+```bash
 $ gulp styles
 ```
 
 > Build scripts
 
-```
+```bash
 $ gulp scripts
 ```
 
 > Build views with pre-processors
 
-```
+```bash
 $ gulp views
 ```
 
 > Copy image files
 
-```
+```bash
 $ gulp images
 ```
 
 > Copy font files
 
-```
+```bash
 $ gulp fonts
 ```
 
 > Copy public files
 
-```
+```bash
 $ gulp public
 ```
 
 > Remove build directory
 
-```
+```bash
 $ gulp clean
 ```
 
