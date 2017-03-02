@@ -18,18 +18,18 @@ html(lang="pt-br")
     meta(property="twitter:card", content="summary_large_image")
     meta(property="twitter:site", content=twitter_id)
 
-    link(href="/assets/images/touch/apple-touch-icon.png", rel="apple-touch-icon", sizes="180x180")
-    link(href="/assets/images/touch/favicon-32x32.png", rel="icon", type="image/png", sizes="32x32")
-    link(href="/assets/images/touch/favicon-194x194.png", rel="icon", type="image/png", sizes="194x194")
-    link(href="/assets/images/touch/android-chrome-192x192.png", rel="icon", type="image/png", sizes="192x192")
-    link(href="/assets/images/touch/favicon-16x16.png", rel="icon", type="image/png", sizes="16x16")
-    link(href="/assets/images/touch/safari-pinned-tab.svg", rel="mask-icon", color=color)
-    link(href="/manifest.json", rel="manifest")
+    link(href="assets/images/touch/apple-touch-icon.png", rel="apple-touch-icon", sizes="180x180")
+    link(href="assets/images/touch/favicon-32x32.png", rel="icon", type="image/png", sizes="32x32")
+    link(href="assets/images/touch/favicon-194x194.png", rel="icon", type="image/png", sizes="194x194")
+    link(href="assets/images/touch/android-chrome-192x192.png", rel="icon", type="image/png", sizes="192x192")
+    link(href="assets/images/touch/favicon-16x16.png", rel="icon", type="image/png", sizes="16x16")
+    link(href="assets/images/touch/safari-pinned-tab.svg", rel="mask-icon", color=color)
+    link(href="manifest.json", rel="manifest")
 
     meta(name="msapplication-tap-highlight", content="no")
     meta(name="msapplication-TileColor", content=color)
-    meta(name="msapplication-config", content="/browserconfig.xml")
-    meta(name="msapplication-TileImage", content="/assets/images/touch/mstile-144x144.png")
+    meta(name="msapplication-config", content="browserconfig.xml")
+    meta(name="msapplication-TileImage", content="assets/images/touch/mstile-144x144.png")
 
     meta(name="theme-color", content=color)
     meta(name="mobile-web-app-capable", content="yes")
@@ -40,15 +40,15 @@ html(lang="pt-br")
     meta(name="apple-mobile-web-app-capable", content="yes")
     meta(name="apple-mobile-web-app-title", content=title)
     meta(name="apple-mobile-web-app-status-bar-style", content="black")
-    link(href="/assets/stylesheets/application.css", rel="stylesheet")
+    link(href="assets/stylesheets/application.css", rel="stylesheet")
     include /partials/schema
   body
     include /partials/header
     block content
     include /partials/footer
 
-    script(src="/assets/javascripts/requirements.js")
-    script(src="/assets/javascripts/application.js")
+    script(src="assets/javascripts/requirements.js")
+    script(src="assets/javascripts/application.js")
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

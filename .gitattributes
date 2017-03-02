@@ -15,5 +15,6 @@
 *.scss  text eol=lf
 *.svg   text eol=lf
 *.yml   text eol=lf
+*.webapp  text eol=lf
 # Don't diff or textually merge source maps
 *.map   binary

@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "name": "Web Starter Kit",
-  "launch_path": "/index.html",
+  "launch_path": "index.html",
   "description": "A front-end template that helps you build fast.",
   "icons": {
-    "128": "/assets/images/touch/apple-touch-icon-120x120.png"
+    "128": "assets/images/touch/apple-touch-icon-120x120.png"
   },
   "developer": {
     "name": "Abraham Carvalho",
