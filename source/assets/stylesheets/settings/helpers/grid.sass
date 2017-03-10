@@ -1,0 +1,153 @@
+$gutter-compensation: $gutter-width * 0.5 * -1
+$half-gutter-width: $gutter-width * 0.5
+
+.container,
+.container-fluid
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  padding-left: $outer-margin
+  padding-right: $outer-margin
+
+.row
+  display: flex
+  flex: 0 1 auto
+  flex-wrap: wrap
+  flex-direction: row
+  margin-left: $gutter-compensation
+  margin-right: $gutter-compensation
+
+.row.reverse
+  flex-direction: row-reverse
+
+.col.reverse
+  flex-direction: column-reverse
+
+=flexboxgrid-sass-col-common
+  flex-grow: 0
+  flex-shrink: 0
+  padding-left: $half-gutter-width
+  padding-right: $half-gutter-width
+
+$name: xs
+
+.col-#{$name}
+  +flexboxgrid-sass-col-common
+  flex-basis: auto
+
+@for $i from 1 through $grid-columns
+  .col-#{$name}-#{$i}
+    +flexboxgrid-sass-col-common
+    flex-basis: 100% / $grid-columns * $i
+    max-width: 100% / $grid-columns * $i
+
+@for $i from 0 through $grid-columns
+  .col-#{$name}-offset-#{$i}
+    +flexboxgrid-sass-col-common
+    @if $i == 0
+      margin-left: 0
+    @else
+      margin-left: 100% / $grid-columns * $i
+
+.col-#{$name}
+  flex-grow: 1
+  flex-basis: 0
+  max-width: 100%
+
+.start-#{$name}
+  text-align: start
+  justify-content: flex-start
+
+.center-#{$name}
+  text-align: center
+  justify-content: center
+
+.end-#{$name}
+  text-align: end
+  justify-content: flex-end
+
+.top-#{$name}
+  align-items: flex-start
+
+.middle-#{$name}
+  align-items: center
+
+.bottom-#{$name}
+  align-items: flex-end
+
+.around-#{$name}
+  justify-content: space-around
+
+.between-#{$name}
+  justify-content: space-between
+
+.first-#{$name}
+  order: -1
+
+.last-#{$name}
+  order: 1
+
+@each $breakpoint in $breakpoints
+  $name: nth($breakpoint, 1)
+  $size: nth($breakpoint, 2)
+  $container: nth($breakpoint, 3)
+
+  @media only screen and (min-width: $size)
+    .container
+      width: $container
+
+    .col-#{$name}
+      +flexboxgrid-sass-col-common
+      flex-basis: auto
+
+    @for $i from 1 through $grid-columns
+      .col-#{$name}-#{$i}
+        +flexboxgrid-sass-col-common
+        flex-basis: 100% / $grid-columns * $i
+        max-width: 100% / $grid-columns * $i
+
+    @for $i from 0 through $grid-columns
+      .col-#{$name}-offset-#{$i}
+        +flexboxgrid-sass-col-common
+        @if $i == 0
+          margin-left: 0
+        @else
+          margin-left: 100% / $grid-columns * $i
+
+    .col-#{$name}
+      flex-grow: 1
+      flex-basis: 0
+      max-width: 100%
+
+    .start-#{$name}
+      text-align: start
+      justify-content: flex-start
+
+    .center-#{$name}
+      text-align: center
+      justify-content: center
+
+    .end-#{$name}
+      text-align: end
+      justify-content: flex-end
+
+    .top-#{$name}
+      align-items: flex-start
+
+    .middle-#{$name}
+      align-items: center
+
+    .bottom-#{$name}
+      align-items: flex-end
+
+    .around-#{$name}
+      justify-content: space-around
+
+    .between-#{$name}
+      justify-content: space-between
+
+    .first-#{$name}
+      order: -1
+
+    .last-#{$name}
+      order: 1

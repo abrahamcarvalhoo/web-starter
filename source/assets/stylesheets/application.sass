@@ -1,34 +1,23 @@
-$primary-font: "Roboto Mono"
-$primary-color: #2979ff
-$second-color: #fff
+// Variables
+@import "settings/variables/base"
+@import "settings/variables/fonts"
+@import "settings/variables/colors"
 
-@import url(https://fonts.googleapis.com/css?family=#{$primary-font}:300,700)
+// Functions
+// @import "settings/functions/"
 
-::selection
-  color: $primary-color
-  background-color: $second-color
+//Mixins
+@import "settings/mixins/text"
 
-body
-  border: 0
-  margin: 0
-  padding: 0
-  color: $second-color
-  background-color: $primary-color
-  font-family: $primary-font, Arial, sans-serif
+//Resets
+// @import "settings/reset"
+@import "settings/sanitize"
+// @import "settings/normalize"
 
-.hero
-  display: flex
-  min-height: 100vh
-  text-align: center
-  align-items: center
-  justify-content: center
+//Helpers
+@import "settings/helpers/grid"
 
-.hero__title
-  margin: 0
-  font-size: 60px
-  font-weight: 700
-
-.hero__subtitle
-  margin: 0
-  font-size: 32px
-  font-weight: 300
+//Components
+@import "components/base"
+@import "components/header"
+@import "components/footer"

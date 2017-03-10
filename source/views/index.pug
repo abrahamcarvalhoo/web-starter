@@ -5,3 +5,281 @@ block content
     .hero__body
       h1.hero__title #{title}
       h2.hero__subtitle #{description}
+
+  .grid-list
+    .container
+      section.page-section
+        h2.grid-list--title Responsive
+        p.grid-list--description Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md & lg viewport widths.
+        .row
+          .col-xs-12.col-sm-3.col-md-2.col-lg-1
+            .box-row
+          .col-xs-6.col-sm-6.col-md-8.col-lg-10
+            .box-row
+          .col-xs-6.col-sm-3.col-md-2.col-lg-1
+            .box-row
+        .row
+          .col-xs-12.col-sm-3.col-md-2.col-lg-1
+            .box-row
+          .col-xs-12.col-sm-9.col-md-10.col-lg-11
+            .box-row
+        .row
+          .col-xs-10.col-sm-6.col-md-8.col-lg-10
+            .box-row
+          .col-xs-2.col-sm-6.col-md-4.col-lg-2
+            .box-row
+
+      section.page-section
+        br
+        h2.grid-list--title Fluid
+        p.grid-list--description Percent based widths allow fluid resizing of columns and rows.
+        .row
+          .col-xs-12
+            .box-row
+        .row
+          .col-xs-1
+            .box-row
+          .col-xs-11
+            .box-row
+        .row
+          .col-xs-2
+            .box-row
+          .col-xs-10
+            .box-row
+        .row
+          .col-xs-3
+            .box-row
+          .col-xs-9
+            .box-row
+        .row
+          .col-xs-4
+            .box-row
+          .col-xs-8
+            .box-row
+        .row
+          .col-xs-5
+            .box-row
+          .col-xs-7
+            .box-row
+        .row
+          .col-xs-6
+            .box-row
+          .col-xs-6
+            .box-row
+
+      section.page-section
+        h2.grid-list--title Offsets
+        p.grid-list--description Offset a column
+        .row
+          .col-xs-offset-11.col-xs-1
+            .box-row
+        .row
+          .col-xs-offset-10.col-xs-2
+            .box-row
+        .row
+          .col-xs-offset-9.col-xs-3
+            .box-row
+        .row
+          .col-xs-offset-8.col-xs-4
+            .box-row
+        .row
+          .col-xs-offset-7.col-xs-5
+            .box-row
+        .row
+          .col-xs-offset-6.col-xs-6
+            .box-row
+        .row
+          .col-xs-offset-5.col-xs-7
+            .box-row
+        .row
+          .col-xs-offset-4.col-xs-8
+            .box-row
+        .row
+          .col-xs-offset-3.col-xs-9
+            .box-row
+        .row
+          .col-xs-offset-2.col-xs-10
+            .box-row
+        .row
+          .col-xs-offset-1.col-xs-11
+            .box-row
+
+      section.page-section
+        h2.grid-list--title Auto Width
+        p.grid-list--description Add any number of auto sizing columns to a row. Let the grid figure it out.
+        .row
+          .col-xs
+            .box-row
+          .col-xs
+            .box-row
+        .row
+          .col-xs
+            .box-row
+          .col-xs
+            .box-row
+          .col-xs
+            .box-row
+
+      section.page-section
+        h2.grid-list--title Nested Grids
+        p.grid-list--description Nest grids inside grids inside grids.
+        .row
+          .col-xs-7
+            .box.box-container
+              .row
+                .col-xs-9
+                  .box-first.box-container
+                    .row
+                      .col-xs-4
+                        .box-nested
+                      .col-xs-8
+                        .box-nested
+                .col-xs-3
+                  .box-first.box-container
+                    .row
+                      .col-xs
+                        .box-nested
+          .col-xs-5
+            .box.box-container
+              .row
+                .col-xs-12
+                  .box-first.box-container
+                    .row
+                      .col-xs-6
+                        .box-nested
+                      .col-xs-6
+                        .box-nested
+
+      section.page-section
+        h2.grid-list--title Alignment
+        p.grid-list--description Add classes to align elements to the start or end of a row as well as the top, bottom, or center of a column
+        h3.grid-list--subtitle .start-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.start-xs
+                .col-xs-6
+                  .box-nested
+        h3.grid-list--subtitle .center-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.center-xs
+                .col-xs-6
+                  .box-nested
+        h3.grid-list--subtitle .end-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.end-xs
+                .col-xs-6
+                  .box-nested
+        p.grid-list--description Here is an example of using the modifiers in conjunction to acheive different alignment at different viewport sizes.
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.center-xs.end-sm.start-lg
+                .col-xs-6
+                  .box-nested
+        h3.grid-list--subtitle .top-
+        .row.top-xs
+          .col-xs-6
+            .box-large
+          .col-xs-6
+            .box
+        h3.grid-list--subtitle .middle-
+        .row.middle-xs
+          .col-xs-6
+            .box-large
+          .col-xs-6
+            .box
+        h3.grid-list--subtitle .bottom-
+        .row.bottom-xs
+          .col-xs-6
+            .box-large
+          .col-xs-6
+            .box
+
+      section.page-section
+        h2.grid-list--title Distribution
+        p.grid-list--description Add classes to distribute the contents of a row or column.
+        h3.grid-list--subtitle .around-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.around-xs
+                .col-xs-2
+                  .box-nested
+                .col-xs-2
+                  .box-nested
+                .col-xs-2
+                  .box-nested
+        h3.grid-list--subtitle .between-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.between-xs
+                .col-xs-2
+                  .box-nested
+                .col-xs-2
+                  .box-nested
+                .col-xs-2
+                  .box-nested
+
+      section.page-section
+        h2.grid-list--title Reordering
+        p.grid-list--description Add classes to reorder columns.
+        h3.grid-list--subtitle .first-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row
+                .col-xs-2
+                  .box-first 1
+                .col-xs-2
+                  .box-first 2
+                .col-xs-2
+                  .box-first 3
+                .col-xs-2
+                  .box-first 4
+                .col-xs-2
+                  .box-first 5
+                .col-xs-2.first-xs
+                  .box-nested 6
+        h3.grid-list--subtitle .last-
+        .row
+          .col-xs-12
+            .box.box-container
+              .row
+                .col-xs-2.last-xs
+                  .box-nested 1
+                .col-xs-2
+                  .box-first 2
+                .col-xs-2
+                  .box-first 3
+                .col-xs-2
+                  .box-first 4
+                .col-xs-2
+                  .box-first 5
+                .col-xs-2
+                  .box-first 6
+
+      section.page-section
+        h2.grid-list--title Reversing
+        h3.grid-list--subtitle .reverse
+        .row
+          .col-xs-12
+            .box.box-container
+              .row.reverse
+                .col-xs-2
+                  .box-nested 1
+                .col-xs-2
+                  .box-nested 2
+                .col-xs-2
+                  .box-nested 3
+                .col-xs-2
+                  .box-nested 4
+                .col-xs-2
+                  .box-nested 5
+                .col-xs-2
+                  .box-nested 6
