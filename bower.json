@@ -1,6 +1,7 @@
 {
   "name": "web-starter-kit",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "jquery-validation": "^1.16.0"
   }
 }
