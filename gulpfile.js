@@ -229,7 +229,8 @@ gulp.task("views", function () {
   .pipe(plugins.plumber({errorHandler: onError}))
   // Get data file
   .pipe(plugins.data(function (file) {
-    return require(paths.source + "config.json");
+    var dataJSON = require(paths.source + "config.json");
+    return dataJSON;
   }))
   // Compile Pug
   .pipe(plugins.pug({
