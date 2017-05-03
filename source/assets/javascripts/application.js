@@ -1,1 +1,1 @@
-//=include components/fastclick.js
+//=include components/test.js

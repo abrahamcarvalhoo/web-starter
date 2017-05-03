@@ -1,7 +1,0 @@
-=bp($bp)
-  @each $breakpoint in $breakpoints
-    $name: nth($breakpoint, 1)
-    $size: nth($breakpoint, 2)
-    @if $bp == $name
-      @media only screen and (min-width: $size)
-        @content

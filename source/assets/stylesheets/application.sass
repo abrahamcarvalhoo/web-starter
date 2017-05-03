@@ -1,24 +1,26 @@
-// Variables
-@import "settings/variables/base"
-@import "settings/variables/fonts"
-@import "settings/variables/colors"
+// 1. Configuration and helpers
+@import "abstracts/variables"
+@import "abstracts/functions"
+@import "abstracts/mixins"
 
-// Functions
-// @import "settings/functions/"
+// 2. Vendors
+@import "vendor/normalize"
 
-//Mixins
-@import "settings/mixins/text"
-@import "settings/mixins/breakpoints"
+// 3. Base stuff
+@import "base/base"
+@import "base/fonts"
+@import "base/typography"
+@import "base/helpers"
 
-//Resets
-// @import "settings/reset"
-@import "settings/sanitize"
-// @import "settings/normalize"
+// 4. Layout-related sections
+@import "layout/header"
+@import "layout/footer"
 
-//Helpers
-@import "settings/helpers/grid"
+// 5. Components
+@import "components/button"
 
-//Components
-@import "components/base"
-@import "components/header"
-@import "components/footer"
+// 6. Page-specific styles
+@import "pages/home"
+
+// 7. Themes
+@import "themes/default"
