@@ -1,5 +1,6 @@
 # App ignores
 build
+vendors
 .publish
 
 # Created by https://www.gitignore.io/api/sass,osx,windows,linux,node,bower
@@ -117,7 +118,6 @@ jspm_packages
 .yarn-integrity
 
 ### Bower ###
-vendors
 bower_components
 .bower-cache
 .bower-registry

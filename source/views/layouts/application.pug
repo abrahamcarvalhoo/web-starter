@@ -1,22 +1,32 @@
 doctype html
-html(lang="pt-br")
+html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
   head
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1, user-scalable=no")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui")
 
     title #{title}
     meta(name="description", content=description)
+    meta(name="image", content=site_url+"/assets/images/social.png")
     meta(name="author", content=author)
     meta(name="generator", content=generator)
 
-    meta(property="og:url", content=site_url)
     meta(property="og:type", content="website")
     meta(property="og:title", content=title)
     meta(property="og:description", content=description)
-    meta(property="og:image", content=site_url+"/assets/images/og-image.png")
+    meta(property="og:image", content=site_url+"/assets/images/social.png")
+    meta(property="fb:app_id", content=facebook_id)
+
     meta(property="twitter:card", content="summary_large_image")
     meta(property="twitter:site", content=twitter_id)
+    meta(property="twitter:creator", content=author)
+    meta(property="twitter:title", content=title)
+    meta(property="twitter:description", content=description)
+    meta(property="twitter:image", content=site_url+"/assets/images/social.png")
+
+    meta(itemprop="name", content=title)
+    meta(itemprop="description", content=description)
+    meta(itemprop="image", content=site_url+"/assets/images/social.png")
 
     link(href="assets/images/touch/apple-touch-icon.png", rel="apple-touch-icon", sizes="180x180")
     link(href="assets/images/touch/favicon-32x32.png", rel="icon", type="image/png", sizes="32x32")
@@ -26,25 +36,29 @@ html(lang="pt-br")
     link(href="assets/images/touch/safari-pinned-tab.svg", rel="mask-icon", color=color)
     link(href="manifest.json", rel="manifest")
 
-    meta(name="msapplication-tap-highlight", content="no")
     meta(name="msapplication-TileColor", content=color)
+    meta(name="msapplication-tap-highlight", content="no")
     meta(name="msapplication-config", content="browserconfig.xml")
     meta(name="msapplication-TileImage", content="assets/images/touch/mstile-144x144.png")
 
     meta(name="theme-color", content=color)
-    meta(name="mobile-web-app-capable", content="yes")
     meta(name="application-name", content=title)
+    meta(name="mobile-web-app-capable", content="yes")
 
+    meta(name="format-detection", content="date=no")
+    meta(name="format-detection", content="email=no")
     meta(name="format-detection", content="address=no")
     meta(name="format-detection", content="telephone=no")
-    meta(name="apple-mobile-web-app-capable", content="yes")
     meta(name="apple-mobile-web-app-title", content=title)
-    meta(name="apple-mobile-web-app-status-bar-style", content="black")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
+
     link(href="assets/stylesheets/application.css", rel="stylesheet")
     include /partials/schema
   body
     include /partials/header
-    block content
+    main
+      block content
     include /partials/footer
 
     script(src="assets/javascripts/requirements.js")
