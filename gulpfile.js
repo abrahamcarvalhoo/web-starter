@@ -9,6 +9,7 @@ var gulp = require("gulp");
 var plugins = require("gulp-load-plugins")();
 var browserSync = require("browser-sync");
 var sequence = require("run-sequence");
+var path = require("path");
 var del = require("del");
 
 /**
@@ -75,14 +76,14 @@ gulp.task("server", function () {
     open: "local"
   });
   // Watch for build changes and reload browser
-  browserSync.watch(paths.build + "**/*").on("change", browserSync.reload);
+  browserSync.watch(path.join(paths.build, "**/*")).on("change", browserSync.reload);
   // Watch for source changes and execute associated tasks
-  gulp.watch(paths.source + paths.views + "**/*.pug", ["views"]);
-  gulp.watch(paths.source + paths.public + "**/*", ["public"]);
-  gulp.watch(paths.source + paths.fonts + "**/*", ["fonts"]);
-  gulp.watch(paths.source + paths.images + "**/*", ["images"]);
-  gulp.watch(paths.source + paths.styles + "**/*.sass", ["styles"]);
-  gulp.watch(paths.source + paths.scripts + "**/*.js", ["scripts"]);
+  gulp.watch(path.join(paths.source, paths.views, "**/*.pug"), ["views"]);
+  gulp.watch(path.join(paths.source, paths.public, "**/*"), ["public"]);
+  gulp.watch(path.join(paths.source, paths.fonts, "**/*"), ["fonts"]);
+  gulp.watch(path.join(paths.source, paths.images, "**/*"), ["images"]);
+  gulp.watch(path.join(paths.source, paths.styles, "**/*.sass"), ["styles"]);
+  gulp.watch(path.join(paths.source, paths.scripts, "**/*.js"), ["scripts"]);
 });
 
 /**
@@ -120,7 +121,7 @@ gulp.task("assets", function (callback) {
 gulp.task("public", function () {
   return gulp
   // Select files
-  .src(paths.source + paths.public + "**/*")
+  .src(path.join(paths.source, paths.public, "**/*"))
   // Catch stream errors
   .pipe(plugins.plumber({errorHandler: onError}))
   // Check for changes
@@ -137,13 +138,13 @@ gulp.task("public", function () {
 gulp.task("fonts", function () {
   return gulp
   // Select files
-  .src(paths.source + paths.fonts + "**/*")
+  .src(path.join(paths.source, paths.fonts, "**/*"))
   // Catch stream errors
   .pipe(plugins.plumber({errorHandler: onError}))
   // Check for changes
-  .pipe(plugins.changed(paths.build + paths.fonts))
+  .pipe(plugins.changed(path.join(paths.build, paths.fonts)))
   // Save files
-  .pipe(gulp.dest(paths.build + paths.fonts));
+  .pipe(gulp.dest(path.join(paths.build, paths.fonts)));
 });
 
 /**
@@ -154,13 +155,13 @@ gulp.task("fonts", function () {
 gulp.task("images", function () {
   return gulp
   // Select files
-  .src(paths.source + paths.images + "**/*")
+  .src(path.join(paths.source, paths.images, "**/*"))
   // Catch stream errors
   .pipe(plugins.plumber({errorHandler: onError}))
   // Check for changes
-  .pipe(plugins.changed(paths.build + paths.images))
+  .pipe(plugins.changed(path.join(paths.build, paths.images)))
   // Save files
-  .pipe(gulp.dest(paths.build + paths.images));
+  .pipe(gulp.dest(path.join(paths.build, paths.images)));
 });
 
 /**
@@ -171,21 +172,21 @@ gulp.task("images", function () {
 gulp.task("scripts", function () {
   return gulp
   // Select files
-  .src(paths.source + paths.scripts + "*.js")
+  .src(path.join(paths.source, paths.scripts, "*.js"))
   // Catch stream errors
   .pipe(plugins.plumber({errorHandler: onError}))
   // Concatenate includes
   .pipe(plugins.include({
-    includePaths: [__dirname + "/" + paths.vendors, __dirname + "/" + paths.source + paths.scripts]
+    includePaths: [path.join(__dirname, paths.vendors), path.join(__dirname, paths.source, paths.scripts)]
   }))
   // Save unminified file
-  .pipe(gulp.dest(paths.build + paths.scripts))
+  .pipe(gulp.dest(path.join(paths.build,paths.scripts)))
   // Optimize and minify
   .pipe(plugins.uglify())
   // Append suffix
   .pipe(plugins.rename({suffix: ".min"}))
   // Save minified file
-  .pipe(gulp.dest(paths.build + paths.scripts));
+  .pipe(gulp.dest(path.join(paths.build, paths.scripts)));
 });
 
 /**
@@ -196,24 +197,24 @@ gulp.task("scripts", function () {
 gulp.task("styles", function () {
   return gulp
   // Select files
-  .src(paths.source + paths.styles + "*.sass")
+  .src(path.join(paths.source, paths.styles, "*.sass"))
   // Catch stream errors
   .pipe(plugins.plumber({errorHandler: onError}))
   // Compile Sass
   .pipe(plugins.sass({
-    includePaths: [__dirname + "/" + paths.vendors, __dirname + "/" + paths.source + paths.styles],
+    includePaths: [path.join(__dirname, paths.vendors), path.join(__dirname, paths.source, paths.styles)],
     outputStyle: "expanded"
   }))
   // Add vendor prefixes
   .pipe(plugins.autoprefixer(prefixes, {cascade: true}))
   // Save unminified file
-  .pipe(gulp.dest(paths.build + paths.styles))
+  .pipe(gulp.dest(path.join(paths.build, paths.styles)))
   // Optimize and minify
   .pipe(plugins.cleanCss())
   // Append suffix
   .pipe(plugins.rename({suffix: ".min"}))
   // Save minified file
-  .pipe(gulp.dest(paths.build + paths.styles));
+  .pipe(gulp.dest(path.join(paths.build, paths.styles)));
 });
 
 /**
@@ -224,7 +225,7 @@ gulp.task("styles", function () {
 gulp.task("views", function () {
   return gulp
   // Select files
-  .src(paths.source + paths.views + "*.pug")
+  .src(path.join(paths.source, paths.views, "*.pug"))
   // Catch stream errors
   .pipe(plugins.plumber({errorHandler: onError}))
   // Get data file
@@ -233,7 +234,7 @@ gulp.task("views", function () {
   }))
   // Compile Pug
   .pipe(plugins.pug({
-    basedir: __dirname + "/" + paths.source + paths.views,
+    basedir: path.join(__dirname, paths.source, paths.views),
     pretty: true
   }))
   // Save files
