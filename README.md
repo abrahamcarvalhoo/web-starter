@@ -1,4 +1,4 @@
-# [![Web Starter Kit](https://raw.githubusercontent.com/abrahamcarvalhoo/web-starter-kit/master/source/assets/images/og-image.png "Web Starter Kit")][github-url]
+# [![Web Starter Kit](https://raw.githubusercontent.com/abrahamcarvalhoo/web-starter-kit/master/source/assets/images/social.png "Web Starter Kit")][github-url]
 
 [![Build Status][build-badge]][build-url]
 [![Dependency Status][dependency-badge]][dependency-url]
