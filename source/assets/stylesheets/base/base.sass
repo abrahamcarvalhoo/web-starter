@@ -1,22 +1,76 @@
-/**
- * Set up a decent box model on the root element
-html
-  box-sizing: border-box
-
-/**
- * Make all elements from the DOM inherit from the parent box-sizing
- * Since `*` has a specificity of 0, it does not override the `html` value
- * making all elements inheriting from the root box-sizing value
- * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
-*, *::before, *::after
+/// Remove repeating backgrounds in all browsers (opinionated).
+/// Add box sizing inheritence in all browsers (opinionated).
+*,
+::before,
+::after
+  background-repeat: no-repeat
   box-sizing: inherit
 
-/**
- * Basic styles for links
-a
-  color: $brand-color
-  text-decoration: none
+/// Add text decoration inheritance in all browsers (opinionated).
+/// Add vertical alignment inheritence in all browsers (opinionated). */
+::before,
+::after
+  text-decoration: inherit
+  vertical-align: inherit
 
-  +on-event
-    color: $text-color
-    text-decoration: underline
+/// Add border box sizing in all browsers (opinionated).
+/// Add the default cursor in all browsers (opinionated).
+html
+  box-sizing: border-box
+  cursor: default
+
+/// Remove the list style on navigation lists in all browsers (opinionated).
+nav ol,
+nav ul
+  list-style: none
+
+/// Change the alignment on media elements in all browers (opinionated).
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+  vertical-align: middle
+
+/// Change the fill color to match the text color in all browsers (opinionated).
+svg
+  fill: currentColor
+
+/// Change the fill color to match the text color in all browsers (opinionated).
+table
+  border-collapse: collapse
+
+/// Change the resize direction on textareas in all browsers (opinionated).
+textarea
+  resize: vertical
+
+/// Remove the tapping delay on clickable elements (opinionated).
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex]
+  touch-action: manipulation
+
+/// Change the cursor on busy elements (opinionated).
+[aria-busy="true"]
+  cursor: progress
+
+/// Change the cursor on control elements (opinionated).
+[aria-controls]
+  cursor: pointer
+
+/// Change the display on visually hidden accessible elements (opinionated).
+[aria-hidden="false"][hidden]:not(:focus)
+  clip: rect(0, 0, 0, 0)
+  display: inherit
+  position: absolute
+
+/// Change the cursor on disabled, not-editable, or otherwise inoperable elements (opinionated).
+[aria-disabled]
+  cursor: default
