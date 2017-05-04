@@ -1,1 +1,1 @@
-//=include components/test.js
+//=include components/base.js
