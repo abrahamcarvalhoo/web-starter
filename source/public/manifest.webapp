@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "Web Starter Kit",
-  "launch_path": "index.html",
+  "launch_path": "/index.html",
   "description": "A front-end template that helps you build fast.",
   "icons": {
     "16": "assets/images/touch/favicon-16x16.png",
