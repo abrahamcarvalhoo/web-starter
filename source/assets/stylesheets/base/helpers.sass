@@ -1,26 +1,12 @@
-/// Clear inner floats
+/// Clear contain floats
 .clearfix::before,
 .clearfix::after
   content: ""
-  clear: both
   display: table
-  line-height: 0
 
-/// Hide text while making it readable for screen readers
-.hide-text
-  font: 0/0 a
-  color: transparent
-  text-shadow: none
-  background-color: transparent
-  border: 0
+.clearfix::after
+  clear: both
 
-/// Hide element while making it readable for screen readers
-.visually-hidden
-  border: 0
-  clip: rect(0 0 0 0)
-  height: 1px
-  margin: -1px
-  overflow: hidden
-  padding: 0
-  position: absolute
-  width: 1px
+/// Hide visually and from screen readers
+.hidden
+  display: none !important
