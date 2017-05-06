@@ -3,3 +3,4 @@
 //=include jquery-validation/dist/additional-methods.js
 //=include jquery-validation/src/localization/messages_pt_BR.js
 //=include jquery-mask-plugin/dist/jquery.mask.js
+//=include wow/dist/wow.js

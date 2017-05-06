@@ -3,6 +3,9 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "jquery-validation": "^1.16.0",
-    "jquery-mask-plugin": "^1.14.10"
+    "jquery-mask-plugin": "^1.14.10",
+    "normalize-css": "^7.0.0",
+    "animate.css": "^3.5.2",
+    "wow": "^1.1.2"
   }
 }
