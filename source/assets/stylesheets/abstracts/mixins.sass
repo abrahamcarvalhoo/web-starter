@@ -72,17 +72,17 @@
     flex-grow: 1
     flex-basis: 0
     max-width: 100%
-    padding: 1rem 0.5rem 0 0.5rem
+    padding: $gutter $gutter-half 0 $gutter-half
 
 =make-offset($columns)
   @for $number from 1 through $columns
     &-offset-#{$number}
-      margin-left: unquote('#{100 / $columns * $number}"%"')
+      margin-left: (100 / $columns * $number)#{"%"}
 
 =make-column($columns)
   @for $number from 1 through $columns
     &-#{$number}
-      width: unquote('#{100 / $columns * $number}"%"')
+      width: (100 / $columns * $number)#{"%"}
       flex: none
 
 =make-grid-column($breakpoint, $columns)

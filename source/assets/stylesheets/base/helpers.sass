@@ -2,19 +2,19 @@
 .col
   flex: 0 0 100%
   max-width: 100%
-  padding: 1rem 0.5rem 0 0.5rem
+  padding: $gutter $gutter-half 0 $gutter-half
 
   +variant(no-gutters)
     padding: 0
 
 // Helper class grid
 .grid
-  padding: 0 0.5rem
+  padding: 0 $gutter-half
 
   +variant(container)
     margin: 0 auto
-    max-width: 1200px
     width: 100%
+    max-width: 1200px
 
   +variant(no-gutters)
     padding: 0
@@ -25,9 +25,7 @@
   flex: 0 1 100%
   flex-direction: row
   flex-wrap: wrap
-  list-style: none
-  margin: -1rem -0.5rem 1rem -0.5rem
-  padding: 0
+  margin: $gutter-negative $gutter-half-negative $gutter $gutter-half-negative
 
   &:last-child
     margin-bottom: 0
