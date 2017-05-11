@@ -1,12 +1,47 @@
-/// Clear contain floats
-.clearfix::before,
-.clearfix::after
-  content: ""
-  display: table
+// Helper class column
+.col
+  flex: 0 0 100%
+  max-width: 100%
+  padding: 1rem 0.5rem 0 0.5rem
 
-.clearfix::after
-  clear: both
+  +variant(no-gutters)
+    padding: 0
 
-/// Hide visually and from screen readers
-.hidden
-  display: none !important
+// Helper class grid
+.grid
+  padding: 0 0.5rem
+
+  +variant(container)
+    margin: 0 auto
+    max-width: 1200px
+    width: 100%
+
+  +variant(no-gutters)
+    padding: 0
+
+// Helper class row
+.row
+  display: flex
+  flex: 0 1 100%
+  flex-direction: row
+  flex-wrap: wrap
+  list-style: none
+  margin: -1rem -0.5rem 1rem -0.5rem
+  padding: 0
+
+  &:last-child
+    margin-bottom: 0
+
+  +variant(no-gutters)
+    margin: 0
+
+// Helper class text
+.text
+  +variant(left)
+    text-align: left
+
+  +variant(center)
+    text-align: center
+
+  +variant(right)
+    text-align: right

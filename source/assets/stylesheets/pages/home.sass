@@ -5,12 +5,13 @@
   text-align: center
   align-items: center
   justify-content: center
+  font-family: "RobotoMono"
   background-color: #2979ff
 
-  &__title
+  +has(title)
     font-size: 60px
-    font-family: "RobotoMono Bold"
+    font-weight: 700
 
-  &__subtitle
+  +has(subtitle)
     font-size: 32px
-    font-family: "RobotoMono Light"
+    font-weight: 300

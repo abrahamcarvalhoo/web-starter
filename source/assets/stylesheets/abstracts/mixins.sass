@@ -1,23 +1,102 @@
-/// Event wrapper
-/// @author Harry Roberts
-/// @param {Bool} $self [false] - Whether or not to include current selector
-/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
-=on-event($self: false)
-  @if $self
-    &,
-    &:hover,
-    &:active,
-    &:focus
-      @content
-  @else
-    &:hover,
-    &:active,
-    &:focus
-      @content
-
-/// Make a context based selector a little more friendly
-/// @author Hugo Giraudel
-/// @param {String} $context
-=when-inside($context)
-  #{$context} &
+=has($element)
+  &__#{$element}
     @content
+
+=variant($modifier)
+  &--#{$modifier}
+    @content
+
+=hover
+  &:hover,
+  &:active,
+  &:focus
+    @content
+
+=transition($time)
+  transition: all $time ease-in-out
+
+/// Helper for the grid align top
+=make-row-helpers($breakpoint)
+  .row--#{$breakpoint}-top
+    align-items: flex-start
+
+  .row--#{$breakpoint}-center
+    align-items: center
+
+  .row--#{$breakpoint}-bottom
+    align-items: flex-end
+
+/// Helper for the sorting the first item
+=make-col-helpers($breakpoint)
+  .col--#{$breakpoint}-align-top
+    align-self: flex-start
+
+  .col--#{$breakpoint}-align-center
+    align-self: center
+
+  .col--#{$breakpoint}-align-bottom
+    align-self: flex-end
+
+  .col--#{$breakpoint}-first
+    order: -1
+
+  .col--#{$breakpoint}-last
+    order: 1
+
+  .col--#{$breakpoint}-reset
+    order: 0
+
+  .row--#{$breakpoint}-reverse
+    flex-direction: row-reverse
+
+  .col--#{$breakpoint}-flex
+    display: flex
+
+=make-text-helpers($breakpoint)
+  .text--#{$breakpoint}-right
+    text-align: right
+
+  .text--#{$breakpoint}-left
+    text-align: left
+
+  .text--#{$breakpoint}-center
+    text-align: center
+
+=make-helpers($breakpoint)
+  +make-row-helpers($breakpoint)
+  +make-col-helpers($breakpoint)
+  +make-text-helpers($breakpoint)
+
+=make-default
+  &
+    flex-grow: 1
+    flex-basis: 0
+    max-width: 100%
+    padding: 1rem 0.5rem 0 0.5rem
+
+=make-offset($columns)
+  @for $number from 1 through $columns
+    &-offset-#{$number}
+      margin-left: unquote('#{100 / $columns * $number}"%"')
+
+=make-column($columns)
+  @for $number from 1 through $columns
+    &-#{$number}
+      width: unquote('#{100 / $columns * $number}"%"')
+      flex: none
+
+=make-grid-column($breakpoint, $columns)
+  +make-helpers($breakpoint)
+
+  .col--#{$breakpoint}
+    +make-default
+    +make-column($columns)
+    +make-offset($columns)
+
+=init($breakpoints, $columns)
+  @each $breakpoint, $width in $breakpoints
+    @if $width == 0
+      +make-grid-column($breakpoint, $columns)
+    @else
+      @media (min-width: $width)
+        +make-grid-column($breakpoint, $columns)
