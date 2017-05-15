@@ -18,3 +18,5 @@
 //#=include magnific-popup/dist/jquery.magnific-popup.js
 //#=include swiper/dist/js/swiper.jquery.js
 //#=include owl.carousel/dist/owl.carousel.js
+//#=include malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
+//#=include jQuery-One-Page-Nav/jquery.nav.js
