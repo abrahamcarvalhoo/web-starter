@@ -1,15 +1,15 @@
 // Add box sizing inheritence in all browsers (opinionated).
 // Remove repeating backgrounds in all browsers (opinionated).
 *,
-::before,
-::after
+*::before,
+*::after
   box-sizing: inherit
   background-repeat: no-repeat
 
 // Add vertical alignment inheritence in all browsers (opinionated).
 // Add text decoration inheritance in all browsers (opinionated).*/
-::before,
-::after
+*::before,
+*::after
   vertical-align: inherit
   text-decoration: inherit
 
@@ -35,6 +35,11 @@ svg,
 video
   vertical-align: middle
 
+// Add the responsive img in all browsers (opinionated).
+img
+  height: auto
+  max-width: 100%
+
 // Change the fill color to match the text color in all browsers (opinionated).
 svg
   fill: currentColor
@@ -46,6 +51,15 @@ table
 // Change the resize direction on textareas in all browsers (opinionated).
 textarea
   resize: vertical
+
+// Remove the underline on a elements (opinionated).
+a
+  text-decoration: none
+
+// Remove the outline on a elements (opinionated).
+a:hover,
+a:active
+  outline-width: 0
 
 // Remove the tapping delay on clickable elements (opinionated).
 a,
