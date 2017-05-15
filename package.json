@@ -36,12 +36,12 @@
     "node": ">=0.12"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.18.11",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-changed": "^3.0.0",
-    "gulp-clean-css": "^3.0.4",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.2.0",
     "gulp-data": "^1.2.1",
     "gulp-include": "^2.3.1",
     "gulp-load-plugins": "^1.5.0",
