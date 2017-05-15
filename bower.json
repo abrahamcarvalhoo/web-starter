@@ -1,21 +1,23 @@
 {
   "name": "web-starter-kit",
   "dependencies": {
-    "jquery": "^3.2.1",
-    "jquery-validation": "^1.16.0",
-    "jquery-mask-plugin": "^1.14.10",
-    "normalize-css": "^7.0.0",
     "animate.css": "^3.5.2",
-    "wow": "^1.1.2",
     "fitvids": "^1.2.0",
-    "velocity": "^1.5.0",
     "isotope": "^3.0.4",
-    "masonry": "^4.2.0",
-    "packery": "^2.1.1",
+    "jquery": "^3.2.1",
     "jquery-ui": "^1.12.1",
-    "photoswipe": "^4.1.2",
+    "jquery.steps": "^1.1.0",
     "jquery-photoswipe": "*",
+    "jquery-mask-plugin": "^1.14.10",
+    "jquery-validation": "^1.16.0",
     "magnific-popup": "^1.1.0",
-    "swiper": "^3.4.2"
+    "masonry": "^4.2.0",
+    "normalize-css": "^7.0.0",
+    "owl.carousel": "^2.2.1",
+    "packery": "^2.1.1",
+    "photoswipe": "^4.1.2",
+    "swiper": "^3.4.2",
+    "velocity": "^1.5.0",
+    "wow": "^1.1.2"
   }
 }
