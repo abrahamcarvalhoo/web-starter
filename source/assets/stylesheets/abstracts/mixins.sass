@@ -15,6 +15,14 @@
 =transition($time)
   transition: all #{$time} ease-in-out
 
+=bp($point)
+  @each $breakpoint in $breakpoints
+    $name: nth($breakpoint, 1)
+    $size: nth($breakpoint, 2)
+    @if $point == $name
+      @media (min-width: $size)
+        @content
+
 =fluid-video($width: null, $height: null)
   height: 0
   overflow: hidden
