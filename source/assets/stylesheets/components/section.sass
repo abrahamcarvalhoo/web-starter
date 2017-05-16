@@ -1,0 +1,47 @@
+.section
+  padding: rem(32px) 0
+
+  +has(title)
+    font-weight: 600
+    font-size: rem(32px)
+    margin-bottom: rem(16px)
+    text-align: center
+
+  +has(subtitle)
+    display: block
+    font-weight: 100
+    font-size: rem(24px)
+    text-align: center
+
+  +has(underline)
+    width: 200px
+    height: 2px
+    display: block
+    margin: rem(24px) auto
+
+  +has(body)
+    padding: rem(32px) 0
+
+  +variant(dark)
+    background-color: $primary_black
+
+    +has(title)
+      color: $primary_white
+
+    +has(underline)
+      background-color: $primary_dark
+
+    +has(subtitle)
+      color: $primary_white
+
+  +variant(light)
+    background-color: $primary_white
+
+    +has(title)
+      color: $primary_black
+
+    +has(underline)
+      background-color: $primary_light
+
+    +has(subtitle)
+      color: $primary_black

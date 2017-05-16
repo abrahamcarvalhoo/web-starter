@@ -6,3 +6,7 @@
 
 @function opacity-black($opacity)
   @return opacity-background(0, 0, 0, $opacity)
+
+@function rem($size)
+  $remSize: $size / 16px
+  @return #{$remSize}rem

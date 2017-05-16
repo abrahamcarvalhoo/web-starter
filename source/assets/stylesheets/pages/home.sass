@@ -1,17 +1,17 @@
 .hero
-  color: #fff
+  color: $white
   display: flex
   min-height: 100vh
   text-align: center
   align-items: center
   justify-content: center
   font-family: "RobotoMono"
-  background-color: #2979ff
+  background-color: $primary
 
   +has(title)
-    font-size: 60px
     font-weight: 700
+    font-size: rem(60px)
 
   +has(subtitle)
-    font-size: 32px
     font-weight: 300
+    font-size: rem(32px)
