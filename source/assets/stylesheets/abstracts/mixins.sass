@@ -20,6 +20,9 @@
     @if $point == $name
       @media (min-width: $size)
         @content
+    @else
+      @media (min-width: $point#{"px"})
+        @content
 
 // Helper for the elements responsive
 =fluid-video($width: null, $height: null)
