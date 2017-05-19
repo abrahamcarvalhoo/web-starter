@@ -1,18 +1,18 @@
-/// Helper for the BEM element
+// Helper for the BEM element
 =has($element)
   &__#{$element}
     @content
 
-/// Helper for the BEM modification
+// Helper for the BEM modification
 =variant($modifier)
   &--#{$modifier}
     @content
 
-/// Helper for the transitions
+// Helper for the transitions
 =transition($time)
   transition: all #{$time} ease-in-out
 
-/// Helper for the breakpoints
+// Helper for the breakpoints
 =bp($point)
   @each $breakpoint in $breakpoints
     $name: nth($breakpoint, 1)
@@ -21,7 +21,7 @@
       @media (min-width: $size)
         @content
 
-/// Helper for the elements responsive
+// Helper for the elements responsive
 =fluid-video($width: null, $height: null)
   height: 0
   overflow: hidden
@@ -42,7 +42,7 @@
     height: 100%
     position: absolute
 
-/// Helper for the grid row
+// Helper for the grid row
 =make-row-helpers($breakpoint)
   .row--#{$breakpoint}-start
     justify-content: flex-start
@@ -71,7 +71,7 @@
   .row--#{$breakpoint}-reverse
     flex-direction: row-reverse
 
-/// Helper for the grid col
+// Helper for the grid col
 =make-col-helpers($breakpoint)
   .col--#{$breakpoint}-start
     justify-content: flex-start
