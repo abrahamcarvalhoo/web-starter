@@ -1,14 +1,18 @@
+/// Helper for the BEM element
 =has($element)
   &__#{$element}
     @content
 
+/// Helper for the BEM modification
 =variant($modifier)
   &--#{$modifier}
     @content
 
+/// Helper for the transitions
 =transition($time)
   transition: all #{$time} ease-in-out
 
+/// Helper for the breakpoints
 =bp($point)
   @each $breakpoint in $breakpoints
     $name: nth($breakpoint, 1)
@@ -17,6 +21,7 @@
       @media (min-width: $size)
         @content
 
+/// Helper for the elements responsive
 =fluid-video($width: null, $height: null)
   height: 0
   overflow: hidden
@@ -37,27 +42,63 @@
     height: 100%
     position: absolute
 
-/// Helper for the grid align top
+/// Helper for the grid row
 =make-row-helpers($breakpoint)
+  .row--#{$breakpoint}-start
+    justify-content: flex-start
+
+  .row--#{$breakpoint}-center
+    justify-content: center
+
+  .row--#{$breakpoint}-end
+    justify-content: flex-end
+
+  .row--#{$breakpoint}-around
+    justify-content: space-around
+
+  .row--#{$breakpoint}-between
+    justify-content: space-between
+
   .row--#{$breakpoint}-top
     align-items: flex-start
 
-  .row--#{$breakpoint}-center
+  .row--#{$breakpoint}-middle
     align-items: center
 
   .row--#{$breakpoint}-bottom
     align-items: flex-end
 
-/// Helper for the sorting the first item
+  .row--#{$breakpoint}-reverse
+    flex-direction: row-reverse
+
+/// Helper for the grid col
 =make-col-helpers($breakpoint)
-  .col--#{$breakpoint}-align-top
-    align-self: flex-start
+  .col--#{$breakpoint}-start
+    justify-content: flex-start
 
-  .col--#{$breakpoint}-align-center
-    align-self: center
+  .col--#{$breakpoint}-center
+    justify-content: center
 
-  .col--#{$breakpoint}-align-bottom
-    align-self: flex-end
+  .col--#{$breakpoint}-end
+    justify-content: flex-end
+
+  .col--#{$breakpoint}-around
+    justify-content: space-around
+
+  .col--#{$breakpoint}-between
+    justify-content: space-between
+
+  .col--#{$breakpoint}-top
+    align-items: flex-start
+
+  .col--#{$breakpoint}-middle
+    align-items: center
+
+  .col--#{$breakpoint}-bottom
+    align-items: flex-end
+
+  .col--#{$breakpoint}-reverse
+    flex-direction: row-reverse
 
   .col--#{$breakpoint}-first
     order: -1
@@ -67,9 +108,6 @@
 
   .col--#{$breakpoint}-reset
     order: 0
-
-  .row--#{$breakpoint}-reverse
-    flex-direction: row-reverse
 
   .col--#{$breakpoint}-flex
     display: flex
@@ -99,12 +137,12 @@
 =make-offset($columns)
   @for $number from 1 through $columns
     &-offset-#{$number}
-      margin-left: (100 / $columns * $number)#{"%"}
+      margin-left: (100% / $columns * $number)
 
 =make-column($columns)
   @for $number from 1 through $columns
     &-#{$number}
-      width: (100 / $columns * $number)#{"%"}
+      width: (100% / $columns * $number)
       flex: none
 
 =make-grid-column($breakpoint, $columns)
