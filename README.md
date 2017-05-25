@@ -54,16 +54,16 @@ $ bower install
 
 ## Usage
 
-> Run the default `server` task.
+> Run the default `watch` task.
 
 ```bash
 $ gulp
 ```
 
-> Build the assets and outputs to the `build/` directory.
+> Build minify and outputs to the `dist/` directory.
 
 ```bash
-$ gulp build
+$ gulp deploy
 ```
 
 > Build styles with pre-processors
@@ -84,22 +84,22 @@ $ gulp scripts
 $ gulp views
 ```
 
-> Copy image files
+> Copy images files
 
 ```bash
 $ gulp images
 ```
 
-> Copy font files
+> Copy fonts files
 
 ```bash
 $ gulp fonts
 ```
 
-> Copy public files
+> Copy static files
 
 ```bash
-$ gulp public
+$ gulp static
 ```
 
 > Remove build directory
