@@ -1,8 +1,9 @@
 # App ignores
+dist
 build
 vendors
 .publish
-!source/**
+!app/**
 
 # Created by https://www.gitignore.io/api/sass,osx,windows,linux,node,bower
 
