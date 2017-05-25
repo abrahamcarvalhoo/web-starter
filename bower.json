@@ -2,7 +2,6 @@
   "name": "web-starter-kit",
   "dependencies": {
     "animate.css": "^3.5.2",
-    "fitvids": "^1.2.0",
     "isotope": "^3.0.4",
     "jquery": "^3.2.1",
     "jquery-ui": "^1.12.1",
@@ -10,8 +9,6 @@
     "jquery-photoswipe": "*",
     "jquery-mask-plugin": "^1.14.10",
     "jquery-validation": "^1.16.0",
-    "jQuery-One-Page-Nav": "^3.0.0",
-    "malihu-custom-scrollbar-plugin": "^3.1.5",
     "magnific-popup": "^1.1.0",
     "masonry": "^4.2.0",
     "normalize-css": "^7.0.0",
@@ -19,7 +16,8 @@
     "packery": "^2.1.1",
     "photoswipe": "^4.1.2",
     "swiper": "^3.4.2",
-    "velocity": "^1.5.0",
-    "wow": "^1.1.2"
+    "wow": "^1.1.2",
+    "jQuery-One-Page-Nav": "^3.0.0",
+    "malihu-custom-scrollbar-plugin": "^3.1.5"
   }
 }
