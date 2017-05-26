@@ -1,9 +1,4 @@
-// 1. Configuration and helpers
-@import "abstracts/functions"
-@import "abstracts/variables"
-@import "abstracts/mixins"
-
-// 2. Vendors
+// vendors
 @import "vendors/normalize-css/normalize"
 // @import "vendors/animate.css/animate"
 // @import "vendors/jquery-ui/themes/base/jquery-ui"
@@ -14,26 +9,26 @@
 // @import "vendors/owl.carousel/dist/assets/owl.carousel"
 // @import "vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar"
 
-// 3. Base stuff
+// tools
+@import "tools/mixins"
+@import "tools/functions"
+
+// settings
+@import "settings/base"
+@import "settings/colors"
+@import "settings/typography"
+
+// base
 @import "base/base"
 @import "base/fonts"
-@import "base/typography"
 @import "base/helpers"
+@import "base/animations"
+@import "base/typography"
 
-// Init grid
-+init($breakpoints, $columns)
+// components
+@import "components/menu"
+@import "components/header"
+@import "components/footer"
 
-// 4. Layout-related sections
-@import "layout/header"
-@import "layout/footer"
-
-// 5. Components
-@import "components/block"
-@import "components/code"
-@import "components/section"
-
-// 6. Page-specific styles
-@import "pages/home"
-
-// 7. Themes
-@import "themes/default"
+// pages
+@import "pages/home/main"

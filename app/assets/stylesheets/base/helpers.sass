@@ -1,45 +1,51 @@
-// Helper class column
-.col
-  flex: 0 0 100%
-  max-width: 100%
-  padding: $gutter $gutter-half 0 $gutter-half
+.container
+  width: 100%
+  margin: 0 auto
+  padding: 0 15px
+  max-width: 1200px
 
-  +variant(no-gutters)
-    padding: 0
+.hidden
+  display: none !important
 
-// Helper class grid
-.grid
-  padding: 0 $gutter-half
 
-  +variant(container)
-    width: 100%
-    margin: 0 auto
-    max-width: rem(1200px)
+// .col
+//   flex: 0 0 100%
+//   max-width: 100%
+//   padding: $gutter $gutter-half 0 $gutter-half
 
-  +variant(no-gutters)
-    padding: 0
+//   +variant(no-gutters)
+//     padding: 0
 
-// Helper class row
-.row
-  display: flex
-  flex: 0 1 100%
-  flex-wrap: wrap
-  flex-direction: row
-  margin: $gutter-negative $gutter-half-negative $gutter $gutter-half-negative
+// .grid
+//   padding: 0 $gutter-half
 
-  &:last-child
-    margin-bottom: 0
+//   +variant(container)
+//     width: 100%
+//     margin: 0 auto
+//     max-width: rem(1200px)
 
-  +variant(no-gutters)
-    margin: 0
+//   +variant(no-gutters)
+//     padding: 0
 
-// Helper class text
-.text
-  +variant(left)
-    text-align: left
+// .row
+//   display: flex
+//   flex: 0 1 100%
+//   flex-wrap: wrap
+//   flex-direction: row
+//   margin: $gutter-negative $gutter-half-negative $gutter $gutter-half-negative
 
-  +variant(center)
-    text-align: center
+//   &:last-child
+//     margin-bottom: 0
 
-  +variant(right)
-    text-align: right
+//   +variant(no-gutters)
+//     margin: 0
+
+// .text
+//   +variant(left)
+//     text-align: left
+
+//   +variant(center)
+//     text-align: center
+
+//   +variant(right)
+//     text-align: right
