@@ -1,12 +1,12 @@
-=centerX()
+=centerX
   left: 50%
   transform: translateX(-50%)
 
-=centerY()
+=centerY
   top: 50%
   transform: translateY(-50%)
 
-=center()
+=center
   top: 50%
   left: 50%
   transform: translate(-50%, -50%)
@@ -25,7 +25,7 @@
       @media (min-width: $value#{"px"})
         @content
 
-=fluid($width, $height)
+=fluid-video($width, $height)
   height: 0
   overflow: hidden
   position: relative
@@ -54,12 +54,12 @@
   &::after
     clear: both
 
-=ellipsis($width: 100%)
+=truncate($width: 100%, $block: inline-block)
+  display: $block
   overflow: hidden
   max-width: $width
   word-wrap: normal
   white-space: nowrap
-  display: inline-block
   text-overflow: ellipsis
 
 =hide-text

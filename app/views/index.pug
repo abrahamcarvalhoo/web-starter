@@ -1,25 +1,8 @@
 extends /layouts/application
 
-block content
-  .hero
-    .grid.grid--container
-      h1.hero__title #{title}
-      h2.hero__subtitle #{description}
+//- block head
+  -var title = ""
+  -var description = ""
 
-  include includes/invidual-sizing
-  include includes/auto-resize
-  include includes/offset
-  include includes/combinding
-  include includes/gridception
-  include includes/full-width
-  include includes/responsive-content
-  include includes/flexible-columns
-  include includes/grid-align-top
-  include includes/grid-align-center
-  include includes/grid-align-bottom
-  include includes/individual-alignment
-  include includes/set-col-first
-  include includes/set-col-last
-  include includes/reverse
-  include includes/no-gutter
-  include includes/text-alignment
+block content
+  include /pages/home/main
