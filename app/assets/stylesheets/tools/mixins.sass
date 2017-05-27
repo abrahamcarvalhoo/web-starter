@@ -11,8 +11,8 @@
   left: 50%
   transform: translate(-50%, -50%)
 
-=transition($value)
-  transition: all $value ease
+=transition($value: 200ms, $property: all)
+  transition: $property $value ease
 
 =bp($value)
   @each $breakpoint in $breakpoints
