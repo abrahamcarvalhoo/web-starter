@@ -1,5 +1,15 @@
 @function em($target, $context: $font-size-base)
-  @return ($target / $context) * 1em
+  @return (strip-unit($target) / strip-unit($context)) * 1em
 
 @function rem($target, $context: $font-size-base)
-  @return ($target / $context) * 1rem
+  @return (strip-unit($target) / strip-unit($context)) * 1rem
+
+@function tint($color, $percent)
+  @return mix($white, $color, $percent)
+
+@function shade($color, $percent)
+  @return mix($black, $color, $percent)
+
+@function font-size($size)
+  font-size: strip-unit($size) + px
+  font-size: rem($size)

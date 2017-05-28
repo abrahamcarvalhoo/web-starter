@@ -2,12 +2,23 @@
   width: 100%
   margin: 0 auto
   padding: 0 15px
-  max-width: 1200px
   position: relative
+  max-width: $container-width
 
-.hidden
+.clearfix
+  +clearfix
+
+.hide
   display: none !important
 
+.hide-text
+  +hide-text
+
+.visually-hidden
+  +visually-hidden
+
+.replace-text
+  +replace-text
 
 // .col
 //   flex: 0 0 100%
