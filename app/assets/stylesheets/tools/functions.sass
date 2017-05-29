@@ -3,9 +3,3 @@
 
 @function rem($target, $context: $font-size-base)
   @return ($target / $context) * 1rem
-
-@function tint($color, $percent)
-  @return mix($white, $color, $percent)
-
-@function shade($color, $percent)
-  @return mix($black, $color, $percent)
