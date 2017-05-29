@@ -13,8 +13,8 @@
 [build-badge]: https://img.shields.io/circleci/project/github/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
 [build-url]: https://circleci.com/gh/abrahamcarvalhoo/web-starter-kit
 
-[dependency-badge]: https://img.shields.io/david/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
-[dependency-url]: https://david-dm.org/abrahamcarvalhoo/web-starter-kit
+[dependency-badge]: https://img.shields.io/gemnasium/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
+[dependency-url]: https://gemnasium.com/github.com/abrahamcarvalhoo/web-starter-kit
 
 [dev-dep-badge]: https://img.shields.io/david/dev/abrahamcarvalhoo/web-starter-kit.svg?style=flat-square
 [dev-dep-url]: https://david-dm.org/abrahamcarvalhoo/web-starter-kit?type=dev
