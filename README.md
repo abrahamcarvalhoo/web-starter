@@ -44,7 +44,7 @@
 $ npm install -g gulp-cli bower
 
 # Clone the repo (and fetch only the latest commits)
-$ git clone --depth=1 https://github.com/abrahamcarvalhoo/web-starter-kit.git
+$ git clone https://github.com/abrahamcarvalhoo/web-starter-kit.git
 $ cd web-starter-kit
 
 # Install local dependencies
