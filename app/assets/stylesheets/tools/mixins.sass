@@ -19,10 +19,10 @@
     $name: nth($breakpoint, 1)
     $size: nth($breakpoint, 2)
     @if ($value == $name)
-      @media (#{$property}-width: $size)
+      @media only screen and (#{$property}-width: $size)
         @content
     @else
-      @media (#{$property}-width: $value#{"px"})
+      @media only screen and (#{$property}-width: $value#{"px"})
         @content
 
 =fluid-video($width: null, $height: null)
@@ -85,120 +85,15 @@
   white-space: nowrap
   text-overflow: ellipsis
 
-// =make-row-helpers($breakpoint)
-//   .row--#{$breakpoint}-start
-//     justify-content: flex-start
+=col($value: null)
+  @if ($value)
+    flex-grow: 0
+    flex-shrink: 0
+    flex-basis: (100% / $columns * $value)
+    max-width: (100% / $columns * $value)
 
-//   .row--#{$breakpoint}-center
-//     justify-content: center
-
-//   .row--#{$breakpoint}-end
-//     justify-content: flex-end
-
-//   .row--#{$breakpoint}-around
-//     justify-content: space-around
-
-//   .row--#{$breakpoint}-between
-//     justify-content: space-between
-
-//   .row--#{$breakpoint}-top
-//     align-items: flex-start
-
-//   .row--#{$breakpoint}-middle
-//     align-items: center
-
-//   .row--#{$breakpoint}-bottom
-//     align-items: flex-end
-
-//   .row--#{$breakpoint}-reverse
-//     flex-direction: row-reverse
-
-// // Helper for the grid col
-// =make-col-helpers($breakpoint)
-//   .col--#{$breakpoint}-start
-//     justify-content: flex-start
-
-//   .col--#{$breakpoint}-center
-//     justify-content: center
-
-//   .col--#{$breakpoint}-end
-//     justify-content: flex-end
-
-//   .col--#{$breakpoint}-around
-//     justify-content: space-around
-
-//   .col--#{$breakpoint}-between
-//     justify-content: space-between
-
-//   .col--#{$breakpoint}-top
-//     align-items: flex-start
-
-//   .col--#{$breakpoint}-middle
-//     align-items: center
-
-//   .col--#{$breakpoint}-bottom
-//     align-items: flex-end
-
-//   .col--#{$breakpoint}-reverse
-//     flex-direction: row-reverse
-
-//   .col--#{$breakpoint}-first
-//     order: -1
-
-//   .col--#{$breakpoint}-last
-//     order: 1
-
-//   .col--#{$breakpoint}-reset
-//     order: 0
-
-//   .col--#{$breakpoint}-flex
-//     display: flex
-
-// =make-text-helpers($breakpoint)
-//   .text--#{$breakpoint}-right
-//     text-align: right
-
-//   .text--#{$breakpoint}-left
-//     text-align: left
-
-//   .text--#{$breakpoint}-center
-//     text-align: center
-
-// =make-helpers($breakpoint)
-//   +make-row-helpers($breakpoint)
-//   +make-col-helpers($breakpoint)
-//   +make-text-helpers($breakpoint)
-
-// =make-default
-//   &
-//     flex-grow: 1
-//     flex-basis: 0
-//     max-width: 100%
-//     padding: $gutter $gutter-half 0 $gutter-half
-
-// =make-offset($columns)
-//   @for $number from 1 through $columns
-//     &-offset-#{$number}
-//       margin-left: (100% / $columns * $number)
-
-// =make-column($columns)
-//   @for $number from 1 through $columns
-//     &-#{$number}
-//       width: (100% / $columns * $number)
-//       flex: none
-
-// =make-grid-column($breakpoint, $columns)
-//   +make-helpers($breakpoint)
-
-//   .col--#{$breakpoint}
-//     +make-default
-//     +make-column($columns)
-//     +make-offset($columns)
-
-// =init($breakpoints, $columns)
-//   @each $breakpoint, $width in $breakpoints
-//     @if $width == 0
-//       +make-grid-column($breakpoint, $columns)
-//     @else
-//       @media (min-width: $width)
-//         +make-grid-column($breakpoint, $columns)
+  @else
+    flex-grow: 1
+    flex-basis: 0
+    flex-shrink: 0
+    max-width: 100%
