@@ -14,18 +14,18 @@
 =transition($value: 200ms, $property: all)
   transition: $property $value ease
 
-=bp($value)
+=bp($value, $property: min)
   @each $breakpoint in $breakpoints
     $name: nth($breakpoint, 1)
     $size: nth($breakpoint, 2)
     @if ($value == $name)
-      @media (min-width: $size)
+      @media (#{$property}-width: $size)
         @content
     @else
-      @media (min-width: strip-unit($value) + px)
+      @media (#{$property}-width: $value#{"px"})
         @content
 
-=fluid-video($width, $height)
+=fluid-video($width: null, $height: null)
   height: 0
   overflow: hidden
   position: relative

@@ -6,7 +6,7 @@ html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui")
 
-    title #{title}
+    title #{title} #{subtitle}
     meta(name="description", content=description)
     meta(name="author", content=author)
     meta(name="generator", content=generator)
@@ -15,17 +15,17 @@ html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
     meta(property="og:title", content=title)
     meta(property="og:description", content=description)
     meta(property="og:url", content=site_url)
-    meta(property="og:image", content="#{site_url}/assets/images/social.png")
+    meta(property="og:image", content=site_url+"/assets/images/social.png")
 
     meta(property="twitter:card", content=twitter_card_type)
     meta(property="twitter:title", content=title)
     meta(property="twitter:description", content=description)
     meta(property="twitter:url", content=site_url)
-    meta(property="twitter:image", content="#{site_url}/assets/images/social.png")
+    meta(property="twitter:image", content=site_url+"/assets/images/social.png")
 
     meta(itemprop="name", content=title)
     meta(itemprop="description", content=description)
-    meta(itemprop="image", content="#{site_url}/assets/images/social.png")
+    meta(itemprop="image", content=site_url+"/assets/images/social.png")
 
     link(href="assets/images/touch/apple-touch-icon.png", rel="apple-touch-icon", sizes="180x180")
     link(href="assets/images/touch/favicon-32x32.png", rel="icon", type="image/png", sizes="32x32")
