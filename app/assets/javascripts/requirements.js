@@ -20,3 +20,4 @@
 //#=include owl.carousel/dist/owl.carousel.js
 //#=include malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
 //#=include jQuery-One-Page-Nav/jquery.nav.js
+//#=include velocity/velocity.js

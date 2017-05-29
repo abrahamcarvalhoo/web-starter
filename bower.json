@@ -17,7 +17,8 @@
     "photoswipe": "^4.1.2",
     "swiper": "^3.4.2",
     "wow": "^1.1.2",
+    "velocity": "^1.5.0",
     "jQuery-One-Page-Nav": "^3.0.0",
-    "malihu-custom-scrollbar-plugin": "^3.1.5"
+    "malihu-custom-scrollbar-plugin": "^3.1.5",
   }
 }
