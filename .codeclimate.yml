@@ -1,0 +1,14 @@
+engines:
+  duplication:
+    enabled: true
+
+    checks:
+      Similar code:
+        enabled: false
+
+  eslint:
+    enabled: true
+
+    checks:
+      global-require:
+        enabled: false
