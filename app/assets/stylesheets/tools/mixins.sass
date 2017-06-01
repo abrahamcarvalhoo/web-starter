@@ -91,12 +91,13 @@
     &:#{$placeholder}-placeholder
       @content
 
-=grid
+=wrap($direction: row)
   flex-grow: 0
   flex-shrink: 1
   flex-basis: auto
-  flex-direction: row
+  flex-direction: $direction
   flex-wrap: wrap
+  display: flex
 
 =col($value: null)
   @if ($value)
@@ -107,5 +108,5 @@
   @else
     flex-grow: 1
     flex-shrink: 1
-    flex-basis: 0
+    flex-basis: auto
     max-width: 100%
