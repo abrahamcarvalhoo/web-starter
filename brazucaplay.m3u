@@ -1,0 +1,599 @@
+#EXTM3U
+
+################################################################################# INFORMAÇÕES
+
+#EXTINF:-1 tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="INFORMAÇÕES",[B][COLOR white]LISTA ATUALIZADA:[/COLOR] [COLOR gold]02/06/2017[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="INFORMAÇÕES",[B][COLOR white]DOAÇÕES: [COLOR gold]BIT.LY/DOARBRPLAY[/COLOR][/B]
+here
+
+################################################################################# CANAIS ABERTOS
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="CANAIS ABERTOS",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]CANAIS ABERTOS[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="BAND HD" tvg-logo="http://i.imgur.com/ENDGIbS.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]BAND[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/193.ts&name=[B][COLOR white]BAND[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="BAND SD" tvg-logo="http://i.imgur.com/ENDGIbS.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]BAND[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/124.ts&name=[B][COLOR white]BAND[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="EPTV CAMPINAS HD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]EPTV CAMPINAS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://maiptv.dyndns.biz/stream/iptv1/andre/538&name=[B][COLOR white]EPTV CAMPINAS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="EPTV CAMPINAS SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]EPTV CAMPINAS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/1447.ts&name=[B][COLOR white]EPTV CAMPINAS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO BRASILIA SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO BRASILIA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/1446.ts&name=[B][COLOR white]GLOBO BRASILIA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO MINAS SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO MINAS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/1443.ts&name=[B][COLOR white]GLOBO MINAS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO NORDESTE SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO NORDESTE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/1444.ts&name=[B][COLOR white]GLOBO NORDESTE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO PREMIUM SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO PREMIUM[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/449.ts&name=[B][COLOR white]GLOBO PREMIUM[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO RJ HD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO RJ[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/170.ts&name=[B][COLOR white]GLOBO RJ[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO RJ SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO RJ[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/1448.ts&name=[B][COLOR white]GLOBO RJ[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO SP SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]GLOBO SP[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/89.ts&name=[B][COLOR white]GLOBO SP[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="RBS TV PORTO ALEGRE SD" tvg-logo="http://www.otvfoco.com.br/wp-content/uploads/2016/03/globo.png" group-title="CANAIS ABERTOS",[B][COLOR white]RBS TV PORTO ALEGRE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/43.ts&name=[B][COLOR white]RBS TV PORTO ALEGRE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="RECORD HD" tvg-logo="https://rd1.com.br/wp-content/uploads/2014/11/record_novo_logo.png" group-title="CANAIS ABERTOS",[B][COLOR white]RECORD[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/149.ts&name=[B][COLOR white]RECORD[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="RECORD SD" tvg-logo="https://rd1.com.br/wp-content/uploads/2014/11/record_novo_logo.png" group-title="CANAIS ABERTOS",[B][COLOR white]RECORD[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/41.ts&name=[B][COLOR white]RECORD[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="REDE TV HD" tvg-logo="http://vertv.net/wp-content/uploads/2016/02/xx-35.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]REDE TV[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/148.ts&name=[B][COLOR white]REDE TV[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="REDE TV SD" tvg-logo="http://vertv.net/wp-content/uploads/2016/02/xx-35.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]REDE TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/39.ts&name=[B][COLOR white]REDE TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="REDE TV SD" tvg-logo="http://vertv.net/wp-content/uploads/2016/02/xx-35.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]REDE TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+rtmp://evp.mm.uol.com.br/redetv1/_definst_/redetv1
+
+#EXTINF:-1 tvg-id="SBT HD" tvg-logo="http://www.sbt.com.br/images/logos_wide/logosbt_og.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]SBT[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/147.ts&name=[B][COLOR white]SBT[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SBT SD" tvg-logo="http://www.sbt.com.br/images/logos_wide/logosbt_og.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]SBT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/36.ts&name=[B][COLOR white]SBT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SBT SD" tvg-logo="http://www.sbt.com.br/images/logos_wide/logosbt_og.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]SBT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://evp.mm.uol.com.br:1935/ne10/ne10-tvjornal-recife-video-mobile.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TV APARECIDA HD" tvg-logo="http://mobile.tvaovivo.co/wp-content/uploads/2016/09/tv_aparecida.png" group-title="CANAIS ABERTOS",[B][COLOR white]TV APARECIDA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+rtmp://69.46.0.170/tvaparecida//tvaparecida.stream
+
+#EXTINF:-1 tvg-id="TV CULTURA HD" tvg-logo="https://lh5.googleusercontent.com/-qvQBX1qKh6o/AAAAAAAAAAI/AAAAAAAAtRM/FxrbA0VuTUI/s0-c-k-no-ns/photo.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]TV CULTURA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://177.73.84.49/hls/57290d5d9a175/57290d5d9a175.m3u8
+
+#EXTINF:-1 tvg-id="TV CULTURA SD" tvg-logo="https://lh5.googleusercontent.com/-qvQBX1qKh6o/AAAAAAAAAAI/AAAAAAAAtRM/FxrbA0VuTUI/s0-c-k-no-ns/photo.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]TV CULTURA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://rsync.com.br:1935/rsync00026/rsync.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TV ESCOLA HD" tvg-logo="https://yt3.ggpht.com/-ing2K4ksoA8/AAAAAAAAAAI/AAAAAAAAAAA/w2R6ALTfP_M/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]TV ESCOLA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://slrp.sambavideos.sambatech.com/liveevent/acerpTvEscolaABR_1f9a5d00db56b3c3020b6ac3dd693e12/livestream1/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="VIVA HD" tvg-logo="https://lh6.googleusercontent.com/-MYSr-RpXBlQ/AAAAAAAAAAI/AAAAAAAA64E/h6YyhpvhdIE/s0-c-k-no-ns/photo.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]VIVA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/133.ts&name=[B][COLOR white]VIVA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="VIVA SD" tvg-logo="https://lh6.googleusercontent.com/-MYSr-RpXBlQ/AAAAAAAAAAI/AAAAAAAA64E/h6YyhpvhdIE/s0-c-k-no-ns/photo.jpg" group-title="CANAIS ABERTOS",[B][COLOR white]VIVA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/3.ts&name=[B][COLOR white]VIVA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+################################################################################# DOCUMENTÁRIOS
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="DOCUMENTÁRIOS",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]DOCUMENTÁRIOS[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="ANIMAL PLANET HD" tvg-logo="https://lh6.googleusercontent.com/-FEsYkupUb-A/AAAAAAAAAAI/AAAAAAAACQY/YFfu_clTAwo/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]ANIMAL PLANET[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/195.ts&name=[B][COLOR white]ANIMAL PLANET[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="ANIMAL PLANET SD" tvg-logo="https://lh6.googleusercontent.com/-FEsYkupUb-A/AAAAAAAAAAI/AAAAAAAACQY/YFfu_clTAwo/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]ANIMAL PLANET[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/131.ts&name=[B][COLOR white]ANIMAL PLANET[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY CHANNEL HD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY CHANNEL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/188.ts&name=[B][COLOR white]DISCOVERY CHANNEL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY CHANNEL SD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/111.ts&name=[B][COLOR white]DISCOVERY CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY CIVILIZATION SD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY CIVILIZATION[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/110.ts&name=[B][COLOR white]DISCOVERY CIVILIZATION[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY HOME & HEALTH HD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY HOME & HEALTH[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/187.ts&name=[B][COLOR white]DISCOVERY HOME & HEALTH[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY HOME & HEALTH SD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY HOME & HEALTH[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/109.ts&name=[B][COLOR white]DISCOVERY HOME & HEALTH[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY ID HD" tvg-logo="http://2.bp.blogspot.com/-g7kclnMAZPA/T3ClVDJR-vI/AAAAAAAAEsA/goncQjp63AI/s500/Investigation+Discovery+logo+2012.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY ID[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/161.ts&name=[B][COLOR white]DISCOVERY ID[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY ID SD" tvg-logo="http://2.bp.blogspot.com/-g7kclnMAZPA/T3ClVDJR-vI/AAAAAAAAEsA/goncQjp63AI/s500/Investigation+Discovery+logo+2012.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY ID[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/77.ts&name=[B][COLOR white]DISCOVERY ID[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE SD" tvg-logo="https://lh4.googleusercontent.com/-xAZHRrsBjd4/AAAAAAAAAAI/AAAAAAAADbs/ESBdsz43X7g/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY SCIENCE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/107.ts&name=[B][COLOR white]DISCOVERY SCIENCE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY TURBO HD" tvg-logo="https://pbs.twimg.com/profile_images/641745128407830528/7kZCHucA.png" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY TURBO[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/185.ts&name=[B][COLOR white]DISCOVERY TURBO[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY TURBO SD" tvg-logo="https://pbs.twimg.com/profile_images/641745128407830528/7kZCHucA.png" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY TURBO[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/106.ts&name=[B][COLOR white]DISCOVERY TURBO[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY WORLD HD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]DISCOVERY WORLD[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/184.ts&name=[B][COLOR white]DISCOVERY WORLD[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FISHTV SD" tvg-logo="https://lh4.googleusercontent.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAFOo/KM6UPwXRS0U/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]FISHTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/97.ts&name=[B][COLOR white]FISHTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HISTORY HD" tvg-logo="https://lh3.googleusercontent.com/-tIQN2Z8Fv0k/AAAAAAAAAAI/AAAAAAAABTo/QCmjgk-l7jo/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]HISTORY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/162.ts&name=[B][COLOR white]HISTORY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HISTORY SD" tvg-logo="https://lh3.googleusercontent.com/-tIQN2Z8Fv0k/AAAAAAAAAAI/AAAAAAAABTo/QCmjgk-l7jo/s0-c-k-no-ns/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]HISTORY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/15.ts&name=[B][COLOR white]HISTORY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="H2 HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2015/08/canal-h2-hd-na-net.png" group-title="DOCUMENTÁRIOS",[B][COLOR white]H2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/168.ts&name=[B][COLOR white]H2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="H2 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2015/08/canal-h2-hd-na-net.png" group-title="DOCUMENTÁRIOS",[B][COLOR white]H2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/85.ts&name=[B][COLOR white]H2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="NAT GEO HD" tvg-logo="https://lh3.googleusercontent.com/-s0rqG9_m-S4/AAAAAAAAAAI/AAAAAAAAAiY/k3otVdJvoyA/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]NAT GEO[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/157.ts&name=[B][COLOR white]NAT GEO[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="NAT GEO SD" tvg-logo="https://lh3.googleusercontent.com/-s0rqG9_m-S4/AAAAAAAAAAI/AAAAAAAAAiY/k3otVdJvoyA/photo.jpg" group-title="DOCUMENTÁRIOS",[B][COLOR white]NAT GEO[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/64.ts&name=[B][COLOR white]NAT GEO[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="NAT GEO WILD HD" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThzx7pqWUwfbhJHPOuW4knKwtqFA0yhnkfbsQt92hbanYtPsHJ" group-title="DOCUMENTÁRIOS",[B][COLOR white]NAT GEO WILD[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/158.ts&name=[B][COLOR white]NAT GEO WILD[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="NAT GEO WILD SD" tvg-logo="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThzx7pqWUwfbhJHPOuW4knKwtqFA0yhnkfbsQt92hbanYtPsHJ" group-title="DOCUMENTÁRIOS",[B][COLOR white]NAT GEO WILD[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/65.ts&name=[B][COLOR white]NAT GEO WILD[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TLC SD" tvg-logo="http://i.imgur.com/wc2NRGd.png" group-title="DOCUMENTÁRIOS",[B][COLOR white]TLC[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/14.ts&name=[B][COLOR white]TLC[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TRUTV SD" tvg-logo="http://tvisual.org/wp-content/uploads/2011/01/trutv-logo.gif" group-title="DOCUMENTÁRIOS",[B][COLOR white]TRUTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/10.ts&name=[B][COLOR white]TRUTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+################################################################################# ESPORTES
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="ESPORTES",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]ESPORTES[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="ALL SPORTS SD" tvg-logo="http://www.megatvaovivo.com/wp-content/uploads/2016/08/all-sports.png" group-title="ESPORTES",[B][COLOR white]ALL SPORTS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://173.236.10.10:1935/dgrau/dgrau/live.m3u8
+
+#EXTINF:-1 tvg-id="BAND SPORTS HD" tvg-logo="http://aovivonatv.com/fotos/b3cc84dd234b8545d0829dc6454a52c3.jpg" group-title="ESPORTES",[B][COLOR white]BAND SPORTS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/192.ts&name=[B][COLOR white]BAND SPORTS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="BAND SPORTS SD" tvg-logo="http://aovivonatv.com/fotos/b3cc84dd234b8545d0829dc6454a52c3.jpg" group-title="ESPORTES",[B][COLOR white]BAND SPORTS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/125.ts&name=[B][COLOR white]BAND SPORTS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="COMBATE HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2013/07/canal-combate.jpg" group-title="ESPORTES",[B][COLOR white]COMBATE[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/189.ts&name=[B][COLOR white]COMBATE[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="COMBATE SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2013/07/canal-combate.jpg" group-title="ESPORTES",[B][COLOR white]COMBATE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/114.ts&name=[B][COLOR white]COMBATE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="EI MAXX HD" tvg-logo="http://i.imgur.com/4C4sRBy.png" group-title="ESPORTES",[B][COLOR white]EI MAXX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/182.ts&name=[B][COLOR white]EI MAXX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="EI MAXX SD" tvg-logo="http://i.imgur.com/4C4sRBy.png" group-title="ESPORTES",[B][COLOR white]EI MAXX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/101.ts&name=[B][COLOR white]EI MAXX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="EI MAXX 2 HD" tvg-logo="http://i.imgur.com/LFYmHbX.png" group-title="ESPORTES",[B][COLOR white]EI MAXX 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/183.ts&name=[B][COLOR white]EI MAXX 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="EI MAXX 2 SD" tvg-logo="http://i.imgur.com/LFYmHbX.png" group-title="ESPORTES",[B][COLOR white]EI MAXX 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/100.ts&name=[B][COLOR white]EI MAXX 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="ESPN BRASIL HD" tvg-logo="http://torcedores.uol.com.br/content/uploads/2016/08/espn-olimpiadas.jpg" group-title="ESPORTES",[B][COLOR white]ESPN BRASIL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/180.ts&name=[B][COLOR white]ESPN BRASIL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="ESPN BRASIL SD" tvg-logo="http://torcedores.uol.com.br/content/uploads/2016/08/espn-olimpiadas.jpg" group-title="ESPORTES",[B][COLOR white]ESPN BRASIL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/98.ts&name=[B][COLOR white]ESPN BRASIL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="ESPN HD" tvg-logo="https://lh4.googleusercontent.com/-yOoKXdob9y8/AAAAAAAAAAI/AAAAAAACGhA/8da2RPNLNUA/s0-c-k-no-ns/photo.jpg" group-title="ESPORTES",[B][COLOR white]ESPN[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/179.ts&name=[B][COLOR white]ESPN[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="ESPN SD" tvg-logo="https://lh4.googleusercontent.com/-yOoKXdob9y8/AAAAAAAAAAI/AAAAAAACGhA/8da2RPNLNUA/s0-c-k-no-ns/photo.jpg" group-title="ESPORTES",[B][COLOR white]ESPN[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/99.ts&name=[B][COLOR white]ESPN[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="ESPN+ SD" tvg-logo="https://pbs.twimg.com/profile_images/515646653349380096/v9hQfNQI_400x400.png" group-title="ESPORTES",[B][COLOR white]ESPN+[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/181.ts&name=[B][COLOR white]ESPN+[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX SPORTS HD" tvg-logo="https://lh3.googleusercontent.com/-SYcTRo0NwWQ/AAAAAAAAAAI/AAAAAAAAdlw/6fFZiVdCJkE/s0-c-k-no-ns/photo.jpg" group-title="ESPORTES",[B][COLOR white]FOX SPORTS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/173.ts&name=[B][COLOR white]FOX SPORTS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX SPORTS SD" tvg-logo="https://lh3.googleusercontent.com/-SYcTRo0NwWQ/AAAAAAAAAAI/AAAAAAAAdlw/6fFZiVdCJkE/s0-c-k-no-ns/photo.jpg" group-title="ESPORTES",[B][COLOR white]FOX SPORTS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/93.ts&name=[B][COLOR white]FOX SPORTS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX SPORTS 2 HD" tvg-logo="https://lh3.googleusercontent.com/-SYcTRo0NwWQ/AAAAAAAAAAI/AAAAAAAAdlw/6fFZiVdCJkE/s0-c-k-no-ns/photo.jpg" group-title="ESPORTES",[B][COLOR white]FOX SPORTS 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/172.ts&name=[B][COLOR white]FOX SPORTS 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX SPORTS 2 SD" tvg-logo="https://lh3.googleusercontent.com/-SYcTRo0NwWQ/AAAAAAAAAAI/AAAAAAAAdlw/6fFZiVdCJkE/s0-c-k-no-ns/photo.jpg" group-title="ESPORTES",[B][COLOR white]FOX SPORTS 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/92.ts&name=[B][COLOR white]FOX SPORTS 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPORTV HD" tvg-logo="https://v.cdn.vine.co/r/avatars/D455444B791217300862906064896_3a288fd2e7f.3.3.jpg?versionId=Alg365r5vZIcCt4mFJnrjdCMQe2VkJI_" group-title="ESPORTES",[B][COLOR white]SPORTV[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/143.ts&name=[B][COLOR white]SPORTV[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPORTV SD" tvg-logo="https://v.cdn.vine.co/r/avatars/D455444B791217300862906064896_3a288fd2e7f.3.3.jpg?versionId=Alg365r5vZIcCt4mFJnrjdCMQe2VkJI_" group-title="ESPORTES",[B][COLOR white]SPORTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/31.ts&name=[B][COLOR white]SPORTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPORTV 2 HD" tvg-logo="https://v.cdn.vine.co/r/avatars/D455444B791217300862906064896_3a288fd2e7f.3.3.jpg?versionId=Alg365r5vZIcCt4mFJnrjdCMQe2VkJI_" group-title="ESPORTES",[B][COLOR white]SPORTV 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/145.ts&name=[B][COLOR white]SPORTV 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPORTV 2 SD" tvg-logo="https://v.cdn.vine.co/r/avatars/D455444B791217300862906064896_3a288fd2e7f.3.3.jpg?versionId=Alg365r5vZIcCt4mFJnrjdCMQe2VkJI_" group-title="ESPORTES",[B][COLOR white]SPORTV 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/30.ts&name=[B][COLOR white]SPORTV 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPORTV 3 HD" tvg-logo="https://v.cdn.vine.co/r/avatars/D455444B791217300862906064896_3a288fd2e7f.3.3.jpg?versionId=Alg365r5vZIcCt4mFJnrjdCMQe2VkJI_" group-title="ESPORTES",[B][COLOR white]SPORTV 3[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/144.ts&name=[B][COLOR white]SPORTV 3[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPORTV 3 SD" tvg-logo="https://v.cdn.vine.co/r/avatars/D455444B791217300862906064896_3a288fd2e7f.3.3.jpg?versionId=Alg365r5vZIcCt4mFJnrjdCMQe2VkJI_" group-title="ESPORTES",[B][COLOR white]SPORTV 3[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/28.ts&name=[B][COLOR white]SPORTV 3[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE CLUBES HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE CLUBES[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/154.ts&name=[B][COLOR white]PREMIERE CLUBES[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE CLUBES SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE CLUBES[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/46.ts&name=[B][COLOR white]PREMIERE CLUBES[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 2 HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/153.ts&name=[B][COLOR white]PREMIERE 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 2 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/54.ts&name=[B][COLOR white]PREMIERE 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 3 HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 3[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/152.ts&name=[B][COLOR white]PREMIERE 3[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 3 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 3[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/53.ts&name=[B][COLOR white]PREMIERE 3[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 4 HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 4[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/151.ts&name=[B][COLOR white]PREMIERE 4[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 4 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 4[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/52.ts&name=[B][COLOR white]PREMIERE 4[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 5 HD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 5[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/150.ts&name=[B][COLOR white]PREMIERE 5[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 5 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 5[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/51.ts&name=[B][COLOR white]PREMIERE 5[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 6 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 6[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/50.ts&name=[B][COLOR white]PREMIERE 6[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 7 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 7[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/49.ts&name=[B][COLOR white]PREMIERE 7[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 8 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 8[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/48.ts&name=[B][COLOR white]PREMIERE 8[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 9 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 9[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/47.ts&name=[B][COLOR white]PREMIERE 9[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 10 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 10[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/27.ts&name=[B][COLOR white]PREMIERE 10[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PREMIERE 11 SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/08/canal-premiere-fc-hd-passa-a-se-chamar-premiere-clubes-hd.jpeg" group-title="ESPORTES",[B][COLOR white]PREMIERE 11[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/29.ts&name=[B][COLOR white]PREMIERE 11[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+################################################################################# FILMES & SÉRIES
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="FILMES & SÉRIES",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]FILMES & SÉRIES[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="AMC PT HD" tvg-logo="http://cdn2.appaix.com/2015/1122/amc-1074_d324a.png" group-title="FILMES & SÉRIES",[B][COLOR white]AMC[/COLOR] [COLOR gold]PT HD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/1013.ts&name=[B][COLOR white]AMC[/COLOR] [COLOR gold]PT HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="A&E SD" tvg-logo="https://lh4.googleusercontent.com/-x7nvFKXjVwg/AAAAAAAAAAI/AAAAAAAAFGQ/3xwuZ1M_eZ0/s0-c-k-no-ns/photo.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]A&E[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/132.ts&name=[B][COLOR white]A&E[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="AXN HD" tvg-logo="https://lh5.googleusercontent.com/-FxcNS0KrNpQ/AAAAAAAAAAI/AAAAAAAAUGw/xs9l7yt-1VQ/s0-c-k-no-ns/photo.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]AXN[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/194.ts&name=[B][COLOR white]AXN[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="AXN SD" tvg-logo="https://lh5.googleusercontent.com/-FxcNS0KrNpQ/AAAAAAAAAAI/AAAAAAAAUGw/xs9l7yt-1VQ/s0-c-k-no-ns/photo.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]AXN[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/128.ts&name=[B][COLOR white]AXN[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="CINEMAX SD" tvg-logo="http://logonoid.com/images/thumbs/cinemax-logo.png" group-title="FILMES & SÉRIES",[B][COLOR white]CINEMAX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/115.ts&name=[B][COLOR white]CINEMAX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="COMEDY CENTRAL SD" tvg-logo="https://i.vimeocdn.com/portrait/4135398_300x300" group-title="FILMES & SÉRIES",[B][COLOR white]COMEDY CENTRAL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/113.ts&name=[B][COLOR white]COMEDY CENTRAL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX HD" tvg-logo="https://lh5.googleusercontent.com/-E0uDPx1zoOM/AAAAAAAAAAI/AAAAAAAACuE/WZ5154foE6Y/s0-c-k-no-ns/photo.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FOX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/175.ts&name=[B][COLOR white]FOX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX SD" tvg-logo="https://lh5.googleusercontent.com/-E0uDPx1zoOM/AAAAAAAAAAI/AAAAAAAACuE/WZ5154foE6Y/s0-c-k-no-ns/photo.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FOX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/95.ts&name=[B][COLOR white]FOX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX LIFE HD" tvg-logo="http://www.foxlife.it/img/foxlife-logo-fb.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FOX LIFE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/174.ts&name=[B][COLOR white]FOX LIFE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX LIFE SD" tvg-logo="http://www.foxlife.it/img/foxlife-logo-fb.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FOX LIFE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://mundogf.dyndns.tv:25461/live/bianca2017/@bandeira100/94.ts&name=[B][COLOR white]FOX LIFE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX PREMIUM 1 HD" tvg-logo="http://i.imgur.com/cE56XM0.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FOX PREMIUM 1[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/177.ts&name=[B][COLOR white]FOX PREMIUM 1[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FOX PREMIUM 2 HD" tvg-logo="http://i.imgur.com/cE56XM0.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FOX PREMIUM 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/176.ts&name=[B][COLOR white]FOX PREMIUM 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FX HD" tvg-logo="https://pbs.twimg.com/profile_images/1158249304/Logo-lat-2010_400x400.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/171.ts&name=[B][COLOR white]FX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="FX SD" tvg-logo="https://pbs.twimg.com/profile_images/1158249304/Logo-lat-2010_400x400.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]FX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/90.ts&name=[B][COLOR white]FX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO HD" tvg-logo="https://lh3.googleusercontent.com/-ZS1B11Ixwrs/VzsVlxVN_2I/AAAAAAAAMSc/lCtATcCf7GATiNvhKCvb0JkTm9ErDg4XgCL0B/s299-no/HBOlogoTW.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]HBO[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/165.ts&name=[B][COLOR white]HBO[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO SD" tvg-logo="https://lh3.googleusercontent.com/-ZS1B11Ixwrs/VzsVlxVN_2I/AAAAAAAAMSc/lCtATcCf7GATiNvhKCvb0JkTm9ErDg4XgCL0B/s299-no/HBOlogoTW.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]HBO[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/84.ts&name=[B][COLOR white]HBO[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO 2 HD" tvg-logo="https://lh3.googleusercontent.com/-ZS1B11Ixwrs/VzsVlxVN_2I/AAAAAAAAMSc/lCtATcCf7GATiNvhKCvb0JkTm9ErDg4XgCL0B/s299-no/HBOlogoTW.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]HBO 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/167.ts&name=[B][COLOR white]HBO 2[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO 2 SD" tvg-logo="https://lh3.googleusercontent.com/-ZS1B11Ixwrs/VzsVlxVN_2I/AAAAAAAAMSc/lCtATcCf7GATiNvhKCvb0JkTm9ErDg4XgCL0B/s299-no/HBOlogoTW.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]HBO 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/79.ts&name=[B][COLOR white]HBO 2[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO PLUS HD" tvg-logo="http://i.imgur.com/jFbLjEw.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO PLUS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/164.ts&name=[B][COLOR white]HBO PLUS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO PLUS SD" tvg-logo="http://i.imgur.com/jFbLjEw.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO PLUS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/82.ts&name=[B][COLOR white]HBO PLUS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO PLUS *E SD" tvg-logo="http://i.imgur.com/fsr65H4.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO PLUS *E[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/81.ts&name=[B][COLOR white]HBO PLUS *E[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO FAMILY HD" tvg-logo="http://i.imgur.com/RQa2ipx.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO FAMILY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/166.ts&name=[B][COLOR white]HBO FAMILY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO FAMILY SD" tvg-logo="http://i.imgur.com/RQa2ipx.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO FAMILY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/83.ts&name=[B][COLOR white]HBO FAMILY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO SIGNATURE HD" tvg-logo="http://4vector.com/i/free-vector-hbo-signature_057214_hbo-signature.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO SIGNATURE[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/163.ts&name=[B][COLOR white]HBO SIGNATURE[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="HBO SIGNATURE SD" tvg-logo="http://4vector.com/i/free-vector-hbo-signature_057214_hbo-signature.png" group-title="FILMES & SÉRIES",[B][COLOR white]HBO SIGNATURE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/80.ts&name=[B][COLOR white]HBO SIGNATURE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MAX SD" tvg-logo="http://i.imgur.com/IGetW4Z.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]MAX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/73.ts&name=[B][COLOR white]MAX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MAX UP HD" tvg-logo="http://i.imgur.com/qF0C1pP.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]MAX UP[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/70.ts&name=[B][COLOR white]MAX UP[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MAX PRIME SD" tvg-logo="http://i.imgur.com/JfMZf2a.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]MAX PRIME[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/72.ts&name=[B][COLOR white]MAX PRIME[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MAX PRIME *E SD" tvg-logo="http://i.imgur.com/3yAenP0.png" group-title="FILMES & SÉRIES",[B][COLOR white]MAX PRIME *E[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/71.ts&name=[B][COLOR white]MAX PRIME *E[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MEGAPIX HD " tvg-logo="http://megapix.estaticos.tv.br/img/megapix_og.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]MEGAPIX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/160.ts&name=[B][COLOR white]MEGAPIX[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MEGAPIX SD" tvg-logo="http://megapix.estaticos.tv.br/img/megapix_og.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]MEGAPIX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/69.ts&name=[B][COLOR white]MEGAPIX[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MTV SD" tvg-logo="https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2016/04/CLA_MTV_640x455_.gif" group-title="FILMES & SÉRIES",[B][COLOR white]MTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/68.ts&name=[B][COLOR white]MTV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PARAMOUNT HD" tvg-logo="http://www.digitaltveurope.net/wp-content/uploads/2014/06/Paramount-channel.jpeg" group-title="FILMES & SÉRIES",[B][COLOR white]PARAMOUNT[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/155.ts&name=[B][COLOR white]PARAMOUNT[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="PARAMOUNT SD" tvg-logo="http://www.digitaltveurope.net/wp-content/uploads/2014/06/Paramount-channel.jpeg" group-title="FILMES & SÉRIES",[B][COLOR white]PARAMOUNT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/57.ts&name=[B][COLOR white]PARAMOUNT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SONY HD" tvg-logo="http://i.imgur.com/z54VOIV.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]SONY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/190.ts&name=[B][COLOR white]SONY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SONY SD" tvg-logo="http://i.imgur.com/z54VOIV.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]SONY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/118.ts&name=[B][COLOR white]SONY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPACE HD" tvg-logo="http://i.imgur.com/LRQgfjv.png" group-title="FILMES & SÉRIES",[B][COLOR white]SPACE[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/146.ts&name=[B][COLOR white]SPACE[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SPACE SD" tvg-logo="http://i.imgur.com/LRQgfjv.png" group-title="FILMES & SÉRIES",[B][COLOR white]SPACE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/32.ts&name=[B][COLOR white]SPACE[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="SYFY SD" tvg-logo="https://lh6.googleusercontent.com/-DoGlXfPppTk/AAAAAAAAAAI/AAAAAAAADGI/-5pR7_q89_w/s0-c-k-no-ns/photo.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]SYFY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/25.ts&name=[B][COLOR white]SYFY[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="STUDIO UNIVERSAL HD" tvg-logo="http://i.imgur.com/jzD5NE7.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]STUDIO UNIVERSAL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/26.ts&name=[B][COLOR white]STUDIO UNIVERSAL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TBS HD" tvg-logo="http://i.imgur.com/73aVuQI.png" group-title="FILMES & SÉRIES",[B][COLOR white]TBS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/142.ts&name=[B][COLOR white]TBS[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TBS SD" tvg-logo="http://i.imgur.com/73aVuQI.png" group-title="FILMES & SÉRIES",[B][COLOR white]TBS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/24.ts&name=[B][COLOR white]TBS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TCM SD" tvg-logo="http://4.bp.blogspot.com/-Q3d2ZmA8BfI/VjkoObk9wVI/AAAAAAAAlws/CNjBliblMuw/s1600/TCM_novologo.png" group-title="FILMES & SÉRIES",[B][COLOR white]TCM[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/23.ts&name=[B][COLOR white]TCM[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TNT HD" tvg-logo="http://appsclaro.com/canales/logos/tnt.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TNT[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/136.ts&name=[B][COLOR white]TNT[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TNT SD" tvg-logo="http://appsclaro.com/canales/logos/tnt.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TNT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/13.ts&name=[B][COLOR white]TNT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TNT SÉRIES HD" tvg-logo="http://i.imgur.com/H2mL3f8.png" group-title="FILMES & SÉRIES",[B][COLOR white]TNT SÉRIES[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/135.ts&name=[B][COLOR white]TNT SÉRIES[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TNT SÉRIES SD" tvg-logo="http://i.imgur.com/H2mL3f8.png" group-title="FILMES & SÉRIES",[B][COLOR white]TNT SÉRIES[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/12.ts&name=[B][COLOR white]TNT SÉRIES[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE ACTION HD" tvg-logo="http://i.imgur.com/rSy5Xaf.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE ACTION[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/141.ts&name=[B][COLOR white]TELECINE ACTION[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE ACTION SD" tvg-logo="http://i.imgur.com/rSy5Xaf.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE ACTION[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/22.ts&name=[B][COLOR white]TELECINE ACTION[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE PIPOCA HD" tvg-logo="http://i.imgur.com/QyLd3Kw.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE PIPOCA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/139.ts&name=[B][COLOR white]TELECINE PIPOCA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE PIPOCA SD" tvg-logo="http://i.imgur.com/QyLd3Kw.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE PIPOCA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/19.ts&name=[B][COLOR white]TELECINE PIPOCA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE PREMIUM HD" tvg-logo="http://i.imgur.com/nmCgymk.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE PREMIUM[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/138.ts&name=[B][COLOR white]TELECINE PREMIUM[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE PREMIUM SD" tvg-logo="http://i.imgur.com/nmCgymk.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE PREMIUM[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/18.ts&name=[B][COLOR white]TELECINE PREMIUM[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE FUN HD" tvg-logo="http://i.imgur.com/QT74hG9.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE FUN[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/140.ts&name=[B][COLOR white]TELECINE FUN[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE FUN SD" tvg-logo="http://i.imgur.com/QT74hG9.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE FUN[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/20.ts&name=[B][COLOR white]TELECINE FUN[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE CULT SD" tvg-logo="http://i.imgur.com/ucPfnaA.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE CULT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/21.ts&name=[B][COLOR white]TELECINE CULT[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE TOUCH HD" tvg-logo="http://i.imgur.com/8klW03y.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE TOUCH[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/137.ts&name=[B][COLOR white]TELECINE TOUCH[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TELECINE TOUCH SD" tvg-logo="http://i.imgur.com/8klW03y.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]TELECINE TOUCH[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/17.ts&name=[B][COLOR white]TELECINE TOUCH[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="UNIVERSAL CHANNEL HD" tvg-logo="http://i.imgur.com/HUy1oon.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]UNIVERSAL CHANNEL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/134.ts&name=[B][COLOR white]UNIVERSAL CHANNEL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="UNIVERSAL CHANNEL SD" tvg-logo="http://i.imgur.com/HUy1oon.jpg" group-title="FILMES & SÉRIES",[B][COLOR white]UNIVERSAL CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/5.ts&name=[B][COLOR white]UNIVERSAL CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="WARNER CHANNEL HD" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkcc_zFmkN7JbazkTxfR6EXiHo8vr1vuDRzO9IfG0ML8aP8wf-" group-title="FILMES & SÉRIES",[B][COLOR white]WARNER CHANNEL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/580.ts&name=[B][COLOR white]WARNER CHANNEL[/COLOR] [COLOR gold]HD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="WARNER CHANNEL SD" tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkcc_zFmkN7JbazkTxfR6EXiHo8vr1vuDRzO9IfG0ML8aP8wf-" group-title="FILMES & SÉRIES",[B][COLOR white]WARNER CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/2.ts&name=[B][COLOR white]WARNER CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+################################################################################# INFANTIL
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="INFANTIL",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]INFANTIL[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="CARTOON NETWORK SD" tvg-logo="http://www.cartoonnetwork.com/static/images/global/ogLogo.png" group-title="INFANTIL",[B][COLOR white]CARTOON NETWORK[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/116.ts&name=[B][COLOR white]CARTOON NETWORK[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="BOOMERANG SD" tvg-logo="http://www.underconsideration.com/brandnew/archives/boomerang_logo_detail.png" group-title="INFANTIL",[B][COLOR white]BOOMERANG[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/121.ts&name=[B][COLOR white]BOOMERANG[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISNEY CHANNEL SD" tvg-logo="https://lumiere-a.akamaihd.net/v1/images/uk_disneychannel_contenttoolbar_videoportal_75f636ea.jpeg" group-title="INFANTIL",[B][COLOR white]DISNEY CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/105.ts&name=[B][COLOR white]DISNEY CHANNEL[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISCOVERY KIDS SD" tvg-logo="https://lh6.googleusercontent.com/-ElwZc-hojPY/AAAAAAAAAAI/AAAAAAAACpA/0GPx8xiclhk/s0-c-k-no-ns/photo.jpg" group-title="INFANTIL",[B][COLOR white]DISCOVERY KIDS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/108.ts&name=[B][COLOR white]DISCOVERY KIDS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISNEY JUNIOR SD" tvg-logo="http://abusymommy.com/wp-content/uploads/2013/03/Disney-Junior.jpg" group-title="INFANTIL",[B][COLOR white]DISNEY JUNIOR[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/104.ts&name=[B][COLOR white]DISNEY JUNIOR[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="DISNEY XD SD" tvg-logo="https://canalfreak.cl/wp-content/uploads/2014/08/image0011.jpg" group-title="INFANTIL",[B][COLOR white]DISNEY XD[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/103.ts&name=[B][COLOR white]DISNEY XD[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOOB SD" tvg-logo="http://g.glbimg.com/og/gs/gsat3/f/thumbs/padrao/2014/09/22/logo_gloob_fundobranco_500x500.jpg" group-title="INFANTIL",[B][COLOR white]GLOOB[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/87.ts&name=[B][COLOR white]GLOOB[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="NICK JUNIOR SD" tvg-logo="https://static1.squarespace.com/static/52efbedde4b02c6bcd882527/t/587dee4a1b631be781cad445/1484647847697/nick-jr.jpeg" group-title="INFANTIL",[B][COLOR white]NICK JUNIOR[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/61.ts&name=[B][COLOR white]NICK JUNIOR[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="NICKELODEON SD" tvg-logo="https://lh6.googleusercontent.com/-xVTi85ayBuY/AAAAAAAAAAI/AAAAAAAAbg0/g7EK74gE0FQ/s0-c-k-no-ns/photo.jpg" group-title="INFANTIL",[B][COLOR white]NICKELODEON[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/60.ts&name=[B][COLOR white]NICKELODEON[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TOONCAST SD" tvg-logo="http://stick.tv/images/sticktvn1/channel/eu/tooncast.png" group-title="INFANTIL",[B][COLOR white]TOONCAST[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/11.ts&name=[B][COLOR white]TOONCAST[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+################################################################################# MÚSICAS & VARIEDADES
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="MÚSICAS & VARIEDADES",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]MÚSICAS & VARIEDADES[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="1 HD MUSIC HD" tvg-logo="https://pbs.twimg.com/profile_images/581384485519921152/mqoXATjw.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]1 HD MUSIC[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://80.250.191.10:1935/live/livestream1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DIJING IBIZA SD" tvg-logo="http://www.djing.com/img/facebook.png" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]DIJING IBIZA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://www.djing.com/tv/04.m3u8
+
+#EXTINF:-1 tvg-id="GOSPEL MUSIC TELEVISION SD" tvg-logo="http://i.imgur.com/uDRiNIJ.png" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]GOSPEL MUSIC TELEVISION[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://stmv2.euroti.com.br:1935/gmusic/gmusic/live.m3u8
+
+#EXTINF:-1 tvg-id="HEART TV SD" tvg-logo="http://radiotoday.co.uk/wp-content/uploads/2015/02/6heartv.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]HEART TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/index_398_av-p.m3u8
+
+#EXTINF:-1 tvg-id="HIT TV SD" tvg-logo="http://www.vertele.com/files/2015/12/hit-tv-veinte.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]HIT TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://tst.es.flash.glb.ipercast.net/tst.es-live/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LIFETIME SD" tvg-logo="http://www.mylifetimetv.ca/images/mylifetimetvlogoog.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]LIFETIME[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/75.ts&name=[B][COLOR white]LIFETIME[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="MIMUSICA HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMmKouwJ3X21lhMldN9sG288uuxDINIj4M5B7w3M3UKIqDFJJ" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]MIMUSICA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MMHD/tu1_1.m3u8?
+
+#EXTINF:-1 tvg-id="MIX TV SD" tvg-logo="http://i.imgur.com/3kG1zEA.png" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]MIX TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://abr.mixtv.upx.net.br/1352/myStream.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MUZ TV SD" tvg-logo="http://www.frocus.net/images/logotv/original/muz-tv-moldova.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]MUZ TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://85.132.78.6:1935/live/muztv.stream/younessiptv.m3u8
+
+#EXTINF:-1 tvg-id="RADIO MONTE CARLOS SD" tvg-logo="http://oi67.tinypic.com/b5fhmu.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]RADIO MONTE CARLOS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://fms.105.net:1935/live/rmc1/chunklist_w1660735550.m3u8
+
+#EXTINF:-1 tvg-id="SLAM TV HD" tvg-logo="http://www.slam.nl/live/background//slam_600x374.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]SLAM TV[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://538hls.lswcdn.triple-it.nl/content/slamtv/slamtv_0.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAxNiA2OjQ1OjIyIFBNJmhhc2hfdmFsdWU9OTFjbEtqNlp5QU55UXNpZWpDY1RqZz09JnZhbGlkbWludXRlcz0x?
+
+#EXTINF:-1 tvg-id="VIRGIN TV SD" tvg-logo="http://www.digital-news.it/UserFiles/virgin-radio-tv.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]VIRGIN TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://wow01.105.net/live/virgin1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VH1 MEGAHITS SD" tvg-logo="http://www.exorbeo.com/wp-content/uploads/2014/11/net-substituira-canal-vh1-pelo-vh1-mega-hits.jpg" group-title="MÚSICAS & VARIEDADES",[B][COLOR white]VH1 MEGAHITS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/4.ts&name=[B][COLOR white]VH1 MEGAHITS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+################################################################################# NOTÍCIAS
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://i.imgur.com/S9ayVt9.png" group-title="NOTÍCIAS",[B][COLOR dodgerblue]|||[/COLOR][COLOR white]|||[/COLOR][COLOR dodgerblue]|||[/COLOR] [COLOR white]NOTÍCIAS[/COLOR][/B]
+here
+
+#EXTINF:-1 tvg-id="ACRITICAPLAY HD" tvg-logo="http://i.imgur.com/e38z4KX.jpg" group-title="NOTÍCIAS",[B][COLOR white]ACRITICAPLAY[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://iphone-streaming.ustream.tv:80/uhls/22972089/streams/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BAND NEWS SD" tvg-logo="https://www.brandeps.com/logo-download/B/Band-News-TV-01.png" group-title="NOTÍCIAS",[B][COLOR white]BAND NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/126.ts&name=[B][COLOR white]BAND NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="BH NEWS TV SD" tvg-logo="http://blog.chicomaia.com.br/wordpress/wp-content/uploads/2011/03/BHNEWS2.jpg" group-title="NOTÍCIAS",[B][COLOR white]BH NEWS TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://edge.z1on.com:1935/1700/3125/3125-hotmedia.sdp/playlist.m3u8[B][COLOR white]BH NEWS TV[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="GLOBO NEWS SD" tvg-logo="http://s.videos.globo.com/pr/311_206.jpg" group-title="NOTÍCIAS",[B][COLOR white]GLOBO NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/88.ts&name=[B][COLOR white]GLOBO NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="RECORD NEWS SD" tvg-logo="https://geekpublicitario.com.br/wp-content/uploads/2016/10/novo-logo-record-news-vertical-2016.jpg" group-title="NOTÍCIAS",[B][COLOR white]RECORD NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://158.69.55.98:25461/live/bianca2017/@bandeira100/42.ts&name=[B][COLOR white]RECORD NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+
+#EXTINF:-1 tvg-id="TV CLIMA HD" tvg-logo="http://i.imgur.com/UbSDSqL.png" group-title="NOTÍCIAS",[B][COLOR white]TV CLIMA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://stmv1.srvstm.com:1935/tvcadm/tvcadm/live.m3u8
+
+#EXTINF:-1 tvg-id="TV CLIMA HD" tvg-logo="http://i.imgur.com/UbSDSqL.png" group-title="NOTÍCIAS",[B][COLOR white]TV CLIMA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+rtmp://stmv1.srvstm.com/tvcadm/tvcadm
+
+#EXTINF:-1 tvg-id="TV GAZETA HD" tvg-logo="https://pbs.twimg.com/profile_images/706853204059938816/EwRD_yZf.jpg" group-title="NOTÍCIAS",[B][COLOR white]TV GAZETA[/COLOR] [COLOR gold]HD[/COLOR][/B]
+http://api.new.livestream.com/accounts/5381476/events/2395418/live.m3u8
+
+#EXTINF:-1 tvg-id="TV GAZETA SD" tvg-logo="https://pbs.twimg.com/profile_images/706853204059938816/EwRD_yZf.jpg" group-title="NOTÍCIAS",[B][COLOR white]TV GAZETA[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://172.93.110.130:1935/tvalternativa/tvalternativa/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TV PONTA NEGRA NEWS SD" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/e/ec/Logotipo_TV_Ponta_Negra.jpg" group-title="NOTÍCIAS",[B][COLOR white]TV PONTA NEGRA NEWS[/COLOR] [COLOR gold]SD[/COLOR][/B]
+http://184.172.23.109:1935/live/tvmix02/tvmix02/livestream.m3u8
