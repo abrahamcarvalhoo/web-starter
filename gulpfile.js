@@ -58,6 +58,9 @@ gulp.task('views', function() {
   .pipe($.data(function(file) {
     return require(path.base.config);
   }))
+  .pipe($.data(function() {
+    return JSON.parse('{"production": "'+options.production+'"}');
+  }))
   .pipe($.pug({basedir: path.base.views, pretty: true}))
   .pipe(gulp.dest(path.dist.default))
   .pipe(browsersync.stream());
