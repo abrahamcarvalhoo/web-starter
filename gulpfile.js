@@ -83,9 +83,10 @@ gulp.task('styles', function() {
 });
 
 gulp.task('scripts', function() {
-  return gulp.src(path.app.scripts)
+  return gulp.src([path.base.scripts + '/requirements.js', path.base.scripts + '/application.js'])
   .pipe($.plumber({errorHandler: onError}))
   .pipe($.include({includePaths: [path.base.vendors, path.base.scripts]}))
+  .pipe($.if(options.production, $.concat('application.js')))
   .pipe($.if(options.production, $.uglify()))
   .pipe(gulp.dest(path.dist.scripts))
   .pipe(browsersync.stream());
@@ -97,8 +98,7 @@ gulp.task('images', function() {
   .pipe($.if(options.production, $.imagemin({
     interlaced: true,
     progressive: true,
-    optimizationLevel: 5,
-    svgoPlugins: [{removeViewBox: false}]
+    optimizationLevel: 5
   })))
   .pipe(gulp.dest(path.dist.images))
   .pipe(browsersync.stream());
