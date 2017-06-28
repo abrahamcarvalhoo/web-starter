@@ -56,14 +56,21 @@ html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
     link(href="assets/stylesheets/application.css", rel="stylesheet")
     include /components/schema
   body
+    h1.hide #{title}
+
     include /components/header
-    main
-      block content
+
+    main.main
+      block main
+
+    block content
+
     include /components/footer
 
     if production == "false"
       script(src="assets/javascripts/requirements.js")
       script(src="assets/javascripts/application.js")
+
     if production == "true"
       script(async, defer, src="assets/javascripts/application.js")
       script.

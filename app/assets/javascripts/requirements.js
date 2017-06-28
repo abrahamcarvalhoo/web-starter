@@ -22,3 +22,4 @@
 //#=include jQuery-One-Page-Nav/jquery.nav.js
 //#=include remodal/dist/remodal.js
 //#=include velocity/velocity.js
+//=include components/functions.js
