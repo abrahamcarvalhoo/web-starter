@@ -25,6 +25,10 @@
       @media (#{$property}-width: $value#{"px"})
         @content
 
+=bph($value, $property: min)
+  @media (#{$property}-height: $value#{"px"})
+    @content
+
 =fluid-video($width: null, $height: null)
   height: 0
   overflow: hidden
@@ -91,12 +95,12 @@
     &:#{$placeholder}-placeholder
       @content
 
-=wrap($direction: row)
+=wrap($direction: row, $wrap: wrap)
   flex-grow: 0
   flex-shrink: 1
   flex-basis: auto
   flex-direction: $direction
-  flex-wrap: wrap
+  flex-wrap: $wrap
   display: flex
 
 =col($value: null)
