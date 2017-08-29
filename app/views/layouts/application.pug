@@ -56,14 +56,16 @@ html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
     link(href="assets/stylesheets/application.css", rel="stylesheet")
     include /components/schema
   body
-    h1.hide #{title}
+    h1.hidden #{title}
 
     include /components/header
+
+    block content_top
 
     main.main
       block main
 
-    block content
+    block content_bottom
 
     include /components/footer
 
