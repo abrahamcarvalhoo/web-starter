@@ -95,11 +95,11 @@ gulp.task('scripts', function() {
 gulp.task('images', function() {
   return gulp.src(path.app.images)
   .pipe($.changed(path.dist.images))
-  .pipe($.if(options.production, $.imagemin({
-    interlaced: true,
-    progressive: true,
-    optimizationLevel: 5
-  })))
+  // .pipe($.if(options.production, $.imagemin({
+  //   interlaced: true,
+  //   progressive: true,
+  //   optimizationLevel: 5
+  // })))
   .pipe(gulp.dest(path.dist.images))
   .pipe(browsersync.stream());
 });
