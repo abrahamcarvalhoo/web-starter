@@ -14,7 +14,7 @@
 //#=include packery/dist/packery.pkgd.js
 //#=include photoswipe/dist/photoswipe.js
 //#=include photoswipe/dist/photoswipe-ui-default.js
-//#=include jquery-photoswipe/dist/jquery.photoswipe.js
+//#=include jquery-photoswipe/dist/jquery.photoswipe-global.js
 //#=include magnific-popup/dist/jquery.magnific-popup.js
 //#=include swiper/dist/js/swiper.jquery.js
 //#=include owl.carousel/dist/owl.carousel.js
