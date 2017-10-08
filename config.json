@@ -2,7 +2,6 @@
   "color": "#2979ff",
   "title": "Web Starter Kit",
   "site_url": "http://www.starter.com.br",
-  "share_image_url": "assets/images/social.png",
   "description": "A front-end template that helps you build fast.",
   "open_graph_type": "website",
   "twitter_card_type": "summary_large_image",
