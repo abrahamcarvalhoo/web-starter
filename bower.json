@@ -15,11 +15,15 @@
     "owl.carousel": "^2.2.1",
     "packery": "^2.1.1",
     "photoswipe": "^4.1.2",
-    "swiper": "^4.0.0",
+    "swiper": "^4.0.1",
     "wow": "^1.1.0",
     "velocity": "^1.5.0",
     "jQuery-One-Page-Nav": "^3.0.0",
     "malihu-custom-scrollbar-plugin": "^3.1.5",
-    "remodal": "^1.1.1"
+    "remodal": "^1.1.1",
+    "jquery.scrollTo": "^2.1.2",
+    "jquery-slimscroll": "jquery-slimScroll#^1.3.8",
+    "jquery-sticky": "^1.0.4",
+    "jquery.easing": "^1.3.1"
   }
 }
