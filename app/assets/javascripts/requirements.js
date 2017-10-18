@@ -10,7 +10,7 @@
 //#=include wow/dist/wow.js
 //#=include velocity/velocity.js
 //#=include velocity/velocity.ui.js
-//#=include swiper/dist/js/swiper.js
+//#=include swiper/dist/js/swiper.jquery.js
 //#=include isotope/dist/isotope.pkgd.js
 //#=include masonry/dist/masonry.pkgd.js
 //#=include packery/dist/packery.pkgd.js
@@ -20,6 +20,7 @@
 //#=include jquery-photoswipe/dist/jquery.photoswipe-global.js
 //#=include malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
 //#=include magnific-popup/dist/jquery.magnific-popup.js
+//#=include jquery.parallaxify/jquery.parallaxify.js
 //#=include jquery-slimscroll/jquery.slimscroll.js
 //#=include jQuery-One-Page-Nav/jquery.nav.js
 //#=include jquery-sticky/jquery.sticky.js
