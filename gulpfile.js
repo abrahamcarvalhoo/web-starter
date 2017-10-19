@@ -75,7 +75,7 @@ gulp.task('styles', function() {
     outputStyle: 'expanded',
     includePaths: [path.base.vendors, path.base.styles]
   }).on('error', onError))
-  .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
+  .pipe($.autoprefixer({browsers: ['last 2 versions']}))
   .pipe($.if(!options.production, $.sourcemaps.write()))
   .pipe($.if(options.production, $.cleanCss()))
   .pipe(gulp.dest(path.dist.styles))
