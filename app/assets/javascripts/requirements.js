@@ -18,6 +18,7 @@
 //#=include owl.carousel/dist/owl.carousel.js
 //#=include photoswipe/dist/photoswipe-ui-default.js
 //#=include jquery-photoswipe/dist/jquery.photoswipe-global.js
+//#=include devbridge-autocomplete/dist/jquery.autocomplete.js
 //#=include malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
 //#=include magnific-popup/dist/jquery.magnific-popup.js
 //#=include jquery.parallaxify/jquery.parallaxify.js
