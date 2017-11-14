@@ -50,3 +50,8 @@
 //#=include gsap/src/uncompressed/plugins/TEMPLATE_Plugin.js
 //#=include gsap/src/uncompressed/plugins/TextPlugin.js
 //#=include gsap/src/uncompressed/utils/Draggable.js
+//#=include scrollmagic/scrollmagic/uncompressed/ScrollMagic.js
+//#=include scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js
+//#=include scrollmagic/scrollmagic/uncompressed/plugins/animation.velocity.js
+//#=include scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js
+//#=include scrollmagic/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js
