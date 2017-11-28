@@ -17,7 +17,9 @@
 //#=include packery/dist/packery.pkgd.js
 //#=include photoswipe/dist/photoswipe.js
 //#=include photoswipe/dist/photoswipe-ui-default.js
+//#=include kbw-countdown/dist/js/jquery.countdown.js
 //#=include infinite-scroll/dist/infinite-scroll.pkgd.js
+//#=include kbw-countdown/dist/js/jquery.countdown-pt-BR.js
 //#=include jquery-photoswipe/dist/jquery.photoswipe-global.js
 //#=include devbridge-autocomplete/dist/jquery.autocomplete.js
 //#=include malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
