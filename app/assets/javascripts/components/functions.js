@@ -20,3 +20,5 @@ function truncate(str, num) {
     return str+'...';
   }
 }
+
+jQuery.fn.serializeObject=function(){var e,i;return e=this.serializeArray(),i={},$.each(e,function(){var e;e=null!=this.value?this.value:"",null!=i[this.name]?(i[this.name].push||(i[this.name]=[i[this.name]]),i[this.name].push(e)):i[this.name]=e}),i};

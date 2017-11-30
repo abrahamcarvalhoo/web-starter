@@ -10,6 +10,7 @@
 //#=include swiper/dist/js/swiper.jquery.js
 //#=include jquery-ui/jquery-ui.js
 //#=include wow/dist/wow.js
+//#=include svgxuse/svgxuse.js
 //#=include velocity/velocity.js
 //#=include velocity/velocity.ui.js
 //#=include isotope/dist/isotope.pkgd.js
