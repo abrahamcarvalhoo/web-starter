@@ -29,6 +29,7 @@
 //#=include jquery-slimscroll/jquery.slimscroll.js
 //#=include jQuery-One-Page-Nav/jquery.nav.js
 //#=include jquery-sticky/jquery.sticky.js
+//#=include seethru/dist/seeThru.min.js
 //#=include remodal/dist/remodal.js
 //=include components/functions.js
 //#=include gsap/src/uncompressed/jquery.gsap.js

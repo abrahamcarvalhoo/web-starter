@@ -31,6 +31,7 @@
     "gsap": "^1.20.3",
     "scrollmagic": "ScrollMagic#^2.0.5",
     "kbw-countdown": "^2.1.0",
-    "svgxuse": "^1.2.6"
+    "svgxuse": "^1.2.6",
+    "seethru": "^3.2.1"
   }
 }
