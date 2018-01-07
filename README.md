@@ -33,11 +33,11 @@
 
 ## Overview
 
-**Web Starter Kit** is a front-end template that helps you build fast based on Gulp, Node, NPM, Bower, BrowserSync, Sass, and Pug.
+**Web Starter Kit** is a front-end template that helps you build fast based on Gulp, NodeJS, NPM, Bower, BrowserSync, Sass, and Pug.
 
 ## Setup
 
->:exclamation: Before you can install dependencies, you will need to install [Node](https://nodejs.org/), [NPM](https://www.npmjs.com/).
+>:exclamation: Before you can install dependencies, you will need to install [NodeJS](https://nodejs.org/), [NPM](https://www.npmjs.com/).
 
 ```bash
 # Install global dependencies
