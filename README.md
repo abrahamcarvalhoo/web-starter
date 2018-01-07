@@ -54,13 +54,13 @@ $ bower install
 
 ## Usage
 
-> Run the default `watch` task.
+> Run the default `watch` task
 
 ```bash
 $ gulp
 ```
 
-> Build minify and outputs to the `dist/` directory.
+> Build minify and outputs to the `dist/` directory
 
 ```bash
 $ gulp deploy
