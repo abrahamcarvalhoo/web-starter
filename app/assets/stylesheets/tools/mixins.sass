@@ -1,12 +1,12 @@
-=centerX
+=centerX()
   left: 50%
   transform: translateX(-50%)
 
-=centerY
+=centerY()
   top: 50%
   transform: translateY(-50%)
 
-=center
+=center()
   top: 50%
   left: 50%
   transform: translate(-50%, -50%)
@@ -49,7 +49,7 @@
     height: 100%
     position: absolute
 
-=clearfix
+=clearfix()
   &::before,
   &::after
     content: ""
@@ -58,13 +58,13 @@
   &::after
     clear: both
 
-=hide-text
+=hide-text()
   padding: 0
   overflow: hidden
   text-indent: 101%
   white-space: nowrap
 
-=visually-hidden
+=visually-hidden()
   border: 0
   padding: 0
   width: 1px
@@ -74,7 +74,7 @@
   position: absolute
   clip: rect(0 0 0 0)
 
-=replace-text
+=replace-text()
   border: 0
   font: 0/0 a
   text-shadow: none
@@ -89,7 +89,7 @@
   white-space: nowrap
   text-overflow: ellipsis
 
-=placeholder
+=placeholder()
   $placeholders: ':-moz' ':-webkit-input' '-moz' '-ms-input'
   @each $placeholder in $placeholders
     &:#{$placeholder}-placeholder
@@ -121,6 +121,6 @@
   padding: $padding
   max-width: $width
 
-=ie
+=ie()
   @media (-ms-high-contrast: active), (-ms-high-contrast: none)
     @content
