@@ -21,11 +21,8 @@
 //#=include kbw-countdown/dist/js/jquery.countdown.js
 //#=include infinite-scroll/dist/infinite-scroll.pkgd.js
 //#=include kbw-countdown/dist/js/jquery.countdown-pt-BR.js
-//#=include jquery-photoswipe/dist/jquery.photoswipe-global.js
 //#=include devbridge-autocomplete/dist/jquery.autocomplete.js
 //#=include malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
-//#=include magnific-popup/dist/jquery.magnific-popup.js
-//#=include jquery.parallaxify/jquery.parallaxify.js
 //#=include jquery-slimscroll/jquery.slimscroll.js
 //#=include jQuery-One-Page-Nav/jquery.nav.js
 //#=include jquery-sticky/jquery.sticky.js
