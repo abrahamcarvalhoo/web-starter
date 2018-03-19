@@ -27,7 +27,6 @@
     "kbw-countdown": "^2.1.0",
     "svgxuse": "^1.2.6",
     "seethru": "^3.2.1",
-    "wow": "^1.1.2",
-    "DirectionAwareHoverEffect": "*"
+    "wow": "^1.1.2"
   }
 }
