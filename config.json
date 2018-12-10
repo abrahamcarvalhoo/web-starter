@@ -3,7 +3,5 @@
   "title": "Web Starter Kit",
   "site_url": "http://www.starter.com.br",
   "description": "A front-end template that helps you build fast.",
-  "generator": "A front-end template that helps you build fast.",
-  "google_analytics": "UA-XXXXX-Y",
-  "author": "Abraham Carvalho"
+  "google_analytics": "UA-XXXXX-Y"
 }

@@ -22,3 +22,9 @@ function truncate(str, num) {
 }
 
 jQuery.fn.serializeObject=function(){var e,i;return e=this.serializeArray(),i={},$.each(e,function(){var e;e=null!=this.value?this.value:"",null!=i[this.name]?(i[this.name].push||(i[this.name]=[i[this.name]]),i[this.name].push(e)):i[this.name]=e}),i};
+
+$('.counter').each(function() {
+  var count = $(this).data('count'),
+  numAnim = new CountUp(this, 0, count);
+  numAnim.start();
+});

@@ -14,8 +14,15 @@ html
   box-sizing: border-box
   -webkit-tap-highlight-color: transparent
 
+::-moz-selection
+  background-color: #fff9cc
+
+::selection
+  background-color: #fff9cc
+
 a
   text-decoration: none
+  +transition(200ms)
 
 ul
   list-style: none
@@ -99,6 +106,8 @@ select,
 summary,
 textarea,
 [tabindex]
+  outline: 0
+  font-family: inherit
   touch-action: manipulation
 
 button,

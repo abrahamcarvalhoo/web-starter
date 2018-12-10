@@ -8,9 +8,6 @@ html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
 
     title #{title}
     meta(name="description", content=description)
-    meta(name="author", content=author)
-    meta(name="generator", content=generator)
-
     meta(property="og:type", content="website")
     meta(property="og:title", content=title)
     meta(property="og:description", content=description)
@@ -48,28 +45,28 @@ html(lang="pt-br" itemscope itemtype="http://schema.org/WebPage")
     meta(name="apple-mobile-web-app-status-bar-style", content="black-translucent")
     meta(name="skype_toolbar", content="skype_toolbar_parser_compatible")
 
-    link(href="assets/stylesheets/application.css", rel="stylesheet")
+    link(href="assets/stylesheets/app.css", rel="stylesheet")
     include /components/schema
   body
     h1.hidden #{title}
 
-    include /components/header
+    include /partials/header
 
     block content_top
 
     main.main
-      block main
+      block content
 
     block content_bottom
 
-    include /components/footer
+    include /partials/footer
 
     if production == "false"
-      script(src="assets/javascripts/requirements.js")
-      script(src="assets/javascripts/application.js")
+      script(src="assets/javascripts/vendors.js")
+      script(src="assets/javascripts/app.js")
 
     if production == "true"
-      script(async, defer, src="assets/javascripts/application.js")
+      script(async, defer, src="assets/javascripts/app.js")
       script.
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

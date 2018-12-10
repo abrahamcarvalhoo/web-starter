@@ -4,6 +4,7 @@ build
 vendors
 .publish
 !app/**
+package-lock.json
 
 # Created by https://www.gitignore.io/api/sass,osx,windows,linux,node,bower
 

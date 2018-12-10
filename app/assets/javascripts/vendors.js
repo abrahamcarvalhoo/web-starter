@@ -26,6 +26,9 @@
 //#=include jquery-slimscroll/jquery.slimscroll.js
 //#=include jQuery-One-Page-Nav/jquery.nav.js
 //#=include jquery-sticky/jquery.sticky.js
+//#=include chart.js/dist/Chart.bundle.js
 //#=include seethru/dist/seeThru.min.js
+//#=include countUp.js/dist/countUp.js
 //#=include remodal/dist/remodal.js
-//=include components/functions.js
+//#=include spectrum/spectrum.js
+//=include vendors/functions.js

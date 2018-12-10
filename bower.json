@@ -27,6 +27,9 @@
     "kbw-countdown": "^2.1.0",
     "svgxuse": "^1.2.6",
     "seethru": "^3.2.1",
-    "wow": "^1.1.2"
+    "wow": "^1.1.2",
+    "spectrum": "^1.8.0",
+    "chart.js": "^2.7.3",
+    "countUp.js": "countup#^1.9.3"
   }
 }

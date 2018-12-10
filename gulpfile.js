@@ -4,9 +4,7 @@ var browsersync = require('browser-sync').create();
 var sequence = require('run-sequence');
 var del = require('del');
 
-var options = {
-  production: false
-};
+var options = { production: false };
 
 var path = {
   dist: {
@@ -45,11 +43,7 @@ var path = {
 };
 
 var onError = function(error) {
-  $.notify.onError({
-    title: 'Gulp Error!',
-    message: 'Error: (<%= error.plugin %>) <%= error.message %>'
-  })(error);
-  this.emit('end');
+  console.log(error);
 };
 
 gulp.task('views', function() {
@@ -68,6 +62,7 @@ gulp.task('views', function() {
 
 gulp.task('styles', function() {
   return gulp.src(path.app.styles)
+  .pipe($.wait(200))
   .pipe($.plumber({errorHandler: onError}))
   .pipe($.if(!options.production, $.sourcemaps.init()))
   .pipe($.sass.sync({
@@ -75,6 +70,7 @@ gulp.task('styles', function() {
     outputStyle: 'expanded',
     includePaths: [path.base.vendors, path.base.styles]
   }).on('error', onError))
+  .pipe($.if(options.production, $.combineMq({ beautify: true })))
   .pipe($.autoprefixer({browsers: ['last 2 versions']}))
   .pipe($.if(!options.production, $.sourcemaps.write()))
   .pipe($.if(options.production, $.cleanCss()))
@@ -83,10 +79,10 @@ gulp.task('styles', function() {
 });
 
 gulp.task('scripts', function() {
-  return gulp.src([path.base.scripts + '/requirements.js', path.base.scripts + '/application.js'])
+  return gulp.src([path.base.scripts + '/vendors.js', path.base.scripts + '/app.js'])
   .pipe($.plumber({errorHandler: onError}))
   .pipe($.include({includePaths: [path.base.vendors, path.base.scripts]}))
-  .pipe($.if(options.production, $.concat('application.js')))
+  .pipe($.if(options.production, $.concat('app.js')))
   .pipe($.if(options.production, $.uglify()))
   .pipe(gulp.dest(path.dist.scripts))
   .pipe(browsersync.stream());
@@ -95,11 +91,6 @@ gulp.task('scripts', function() {
 gulp.task('images', function() {
   return gulp.src(path.app.images)
   .pipe($.changed(path.dist.images))
-  // .pipe($.if(options.production, $.imagemin({
-  //   interlaced: true,
-  //   progressive: true,
-  //   optimizationLevel: 5
-  // })))
   .pipe(gulp.dest(path.dist.images))
   .pipe(browsersync.stream());
 });
