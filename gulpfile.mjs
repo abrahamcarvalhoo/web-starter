@@ -27,7 +27,6 @@ const source = {
   scripts: 'src/scripts',
   images: 'src/images',
   fonts: 'src/fonts',
-  public: 'src/public',
   publics: 'src/public',
 }
 
@@ -63,7 +62,7 @@ function styles() {
 
 function scripts() {
   return src(`${source.scripts}/*.js`)
-  .pipe(include({includePaths: ['node_modules']}))
+  .pipe(include({ includePaths: ['node_modules'] }))
   .pipe(concat('app.js'))
   .pipe(uglify())
   .pipe(dest(dist.scripts))
@@ -91,12 +90,7 @@ function publics() {
 const clean = () => deleteAsync(dist.path)
 
 function watcher() {
-  browsersync.init({
-    ui: false,
-    port: 3000,
-    notify: false,
-    server: dist.path
-  })
+  browsersync.init({ server: dist.path })
 
   watch(`${source.views}/**/*`, views)
   watch(`${source.styles}/**/*`, styles)
@@ -104,7 +98,6 @@ function watcher() {
   watch(`${source.images}/**/*`, images)
   watch(`${source.fonts}/**/*`, fonts)
   watch(`${source.publics}/**/*`, publics)
-  // watch(`${dist.path}/**/*.html`, browsersync.reload())
 }
 
 export const build = series(clean, parallel(views, styles, scripts, images, fonts, publics))
