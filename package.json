@@ -1,16 +1,21 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "description": "A frontend kit that helps you build fast.",
+  "main": "gulpfile.mjs",
   "scripts": {
-    "start": "",
-    "build": "",
+    "start": "gulp",
+    "build": "gulp build",
     "deploy": ""
   },
-  "author": "",
+  "keywords": [
+    "Gulp",
+    "Sass",
+    "Pug",
+    "Browsersync"
+  ],
+  "author": "Abraham Carvalho",
   "license": "MIT",
-  "homepage": "",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.11",
@@ -25,7 +30,8 @@
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.57.1"
   },
   "dependencies": {
     "jquery": "^3.6.3",

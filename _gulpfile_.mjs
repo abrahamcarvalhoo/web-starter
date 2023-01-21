@@ -34,7 +34,6 @@ const dist = {
   fonts: 'dist/assets/fonts'
 }
 
-
 function views() {
   return src('${source.views}/*.pug')
   .pipe(data(function(file) {
@@ -75,7 +74,7 @@ function fonts() {
   .pipe(browsersync.stream())
 }
 
-function public() {
+function publics() {
   return src('${source.public}/**/*')
   .pipe(dest(dist))
   .pipe(browsersync.stream())
@@ -85,7 +84,7 @@ function clean() {
 	return del(dist.path)
 }
 
-function watch() {
+function watcher() {
   browsersync.init({
     ui: false,
     port: 3000,
@@ -98,13 +97,13 @@ function watch() {
   watch('${source.scripts}/**/*', scripts)
   watch('${source.images}/**/*', images)
   watch('${source.fonts}/**/*', fonts)
-  watch('${source.public}/**/*', public)
+  watch('${source.public}/**/*', publics)
   watch('${dist.path}/**/*.html').on('change', browsersync.reload)
 }
 
 function build() {
-	return series(clean, parallel(views, styles, scripts, images, fonts, public))
+	return series(clean, parallel(views, styles, scripts, images, fonts, publics))
 }
 
 exports.build	= build
-exports.default	= series(build, watch)
+exports.default	= series(build, watcher)
