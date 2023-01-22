@@ -1,6 +1,6 @@
 {
-  "name": "Web Starter Kit",
-  "short_name": "WSK",
+  "name": "starter",
+  "short_name": "ST",
   "display": "standalone",
   "theme_color": "#2979ff",
   "background_color": "#2979ff",

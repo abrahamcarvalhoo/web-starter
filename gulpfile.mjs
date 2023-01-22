@@ -14,11 +14,12 @@ import cssnano from 'cssnano'
 import mqpacker from 'css-mqpacker'
 import concat from 'gulp-concat'
 import uglify from 'gulp-uglify'
+import imagemin from 'gulp-imagemin'
 import browsersync from 'browser-sync'
 import config from './config.json' assert { type: 'json' }
 browsersync.create()
 
-const IS_PROD = process.env.NODE_ENV === 'production'
+let IS_PROD = false
 
 const source = {
   path: 'src',
@@ -40,21 +41,17 @@ const dist = {
 
 function views() {
   return src(`${source.views}/*.pug`)
-  .pipe(data(file => config))
-  .pipe(pug())
+  .pipe(data(file => Object.assign(config, { IS_PROD })))
+  .pipe(pug({ basedir: source.views, pretty: true }))
   .pipe(dest(dist.path))
   .pipe(browsersync.stream())
 }
 
 function styles() {
   return src(`${source.styles}/*.sass`)
-  .pipe(sass({ includePaths: ['node_modules'] }).on('error', sass.logError))
+  .pipe(sass({ includePaths: [source.styles, 'node_modules'] }).on('error', sass.logError))
   .pipe(sourcemaps.init())
-  .pipe(postcss([
-    autoprefixer(),
-    mqpacker({ sort: true }),
-    cssnano()
-  ]))
+  .pipe(postcss([mqpacker({ sort: true }), autoprefixer(), cssnano()]))
   .pipe(sourcemaps.write())
   .pipe(dest(dist.styles))
   .pipe(browsersync.stream())
@@ -62,7 +59,7 @@ function styles() {
 
 function scripts() {
   return src(`${source.scripts}/*.js`)
-  .pipe(include({ includePaths: ['node_modules'] }))
+  .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
   .pipe(concat('app.js'))
   .pipe(uglify())
   .pipe(dest(dist.scripts))
@@ -71,6 +68,7 @@ function scripts() {
 
 function images() {
   return src(`${source.images}/**/*`)
+  .pipe(imagemin())
   .pipe(dest(dist.images))
   .pipe(browsersync.stream())
 }
@@ -87,11 +85,8 @@ function publics() {
   .pipe(browsersync.stream())
 }
 
-const clean = () => deleteAsync(dist.path)
-
 function watcher() {
-  browsersync.init({ server: dist.path })
-
+  browsersync.init({ server: dist.path, notify: false })
   watch(`${source.views}/**/*`, views)
   watch(`${source.styles}/**/*`, styles)
   watch(`${source.scripts}/**/*`, scripts)
@@ -100,5 +95,7 @@ function watcher() {
   watch(`${source.publics}/**/*`, publics)
 }
 
-export const build = series(clean, parallel(views, styles, scripts, images, fonts, publics))
-export default series(build, watcher)
+export const clean = () => deleteAsync(dist.path)
+export const tasks = series(clean, parallel(views, styles, scripts, images, fonts, publics))
+export const build = cb => (IS_PROD = true) && series(tasks)(cb)
+export default series(tasks, watcher)
