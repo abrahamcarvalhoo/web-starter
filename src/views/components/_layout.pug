@@ -40,27 +40,27 @@ html(lang="en")
     meta(name="skype_toolbar", content="skype_toolbar_parser_compatible")
 
     link(href="manifest.json", rel="manifest")
-    link(href="assets/images/touch/apple-touch-icon.png", rel="apple-touch-icon", sizes="180x180")
-    link(href="assets/images/touch/favicon-32x32.png", rel="icon", type="image/png", sizes="32x32")
-    link(href="assets/images/touch/favicon-16x16.png", rel="icon", type="image/png", sizes="16x16")
-    link(href="assets/images/touch/safari-pinned-tab.svg", rel="mask-icon", color=color)
-    if IS_PROD
-      link(href="assets/styles/app.css", rel="stylesheet")
+    link(href="/assets/images/touch/apple-touch-icon.png", rel="apple-touch-icon", sizes="180x180")
+    link(href="/assets/images/touch/favicon-32x32.png", rel="icon", type="image/png", sizes="32x32")
+    link(href="/assets/images/touch/favicon-16x16.png", rel="icon", type="image/png", sizes="16x16")
+    link(href="/assets/images/touch/safari-pinned-tab.svg", rel="mask-icon", color=color)
+    if !IS_PROD
+      link(href="/assets/styles/vendors.css", rel="stylesheet")
+      link(href="/assets/styles/app.css", rel="stylesheet")
     else
-      link(href="assets/styles/vendors.css", rel="stylesheet")
-      link(href="assets/styles/app.css", rel="stylesheet")
+      link(href="/assets/styles/app.min.css", rel="stylesheet")
   body
-    include header
+    include _header
     block header
 
     main.main
       block content
 
     block footer
-    include footer
+    include _footer
 
-    if IS_PROD
-      script(async, defer, src="assets/scripts/app.js")
+    if !IS_PROD
+      script(src="/assets/scripts/vendors.js")
+      script(src="/assets/scripts/app.js")
     else
-      script(src="assets/scripts/vendors.js")
-      script(src="assets/scripts/app.js")
+      script(async, defer, src="/assets/scripts/app.min.js")
