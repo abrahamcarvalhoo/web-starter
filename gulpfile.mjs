@@ -55,29 +55,35 @@ function views() {
 }
 
 function styles() {
-  return src([`${source.styles}/app.sass`, `${source.styles}/vendors.sass`])
+  return src([`${source.styles}/app.sass`, `${source.styles}/**/!(_)*.sass`, `!${source.styles}/vendors.sass`])
   .pipe(plumber())
   .pipe(sourcemaps.init())
   .pipe(sass({ includePaths: [source.styles, 'node_modules'] }).on('error', sass.logError))
+  .pipe(concat('app.css'))
+  .pipe(src(`${source.styles}/vendors.sass`))
+  .pipe(sass({ includePaths: [source.styles, 'node_modules'] }).on('error', sass.logError))
   .pipe(postcss([mqpacker({ sort: true }), autoprefixer()]))
+  .pipe(order(['vendors.css']))
   .pipe(gif(IS_PROD, concat('app.min.css')))
   .pipe(sourcemaps.write())
   .pipe(gif(IS_PROD, postcss([cssnano()])))
+  .pipe(changed())
   .pipe(dest(dist.styles))
   .pipe(browsersync.stream())
 }
 
 function scripts() {
-  return src(`${source.scripts}/**/!(vendors)*.js`)
+  return src([`${source.scripts}/app.js`, `${source.scripts}/**/!(vendors)*.js`])
   .pipe(plumber())
   .pipe(concat('app.js'))
   .pipe(src(`${source.scripts}/vendors.js`))
   .pipe(sourcemaps.init())
   .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
-  .pipe(order(['vendors.js', '**/*.js']))
+  .pipe(order(['vendors.js']))
   .pipe(gif(IS_PROD, concat('app.min.js')))
   .pipe(sourcemaps.write())
   .pipe(gif(IS_PROD, uglify()))
+  .pipe(changed())
   .pipe(dest(dist.scripts))
   .pipe(browsersync.stream())
 }
