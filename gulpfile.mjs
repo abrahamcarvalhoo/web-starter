@@ -4,6 +4,7 @@ import { deleteAsync } from 'del'
 import pug from 'gulp-pug'
 import gif from 'gulp-if'
 import data from 'gulp-data'
+import order from 'gulp-order'
 import concat from 'gulp-concat'
 import include from 'gulp-include'
 import plumber from 'gulp-plumber'
@@ -44,7 +45,7 @@ const dist = {
 }
 
 function views() {
-  return src([`${source.views}/**/!(_)*.pug`])
+  return src(`${source.views}/**/!(_)*.pug`)
   .pipe(plumber())
   .pipe(data(file => Object.assign(config, { IS_PROD })))
   .pipe(pug({ basedir: source.views, pretty: true }))
@@ -56,24 +57,27 @@ function views() {
 function styles() {
   return src([`${source.styles}/app.sass`, `${source.styles}/vendors.sass`])
   .pipe(plumber())
-  .pipe(gif(!IS_PROD, sourcemaps.init()))
+  .pipe(sourcemaps.init())
   .pipe(sass({ includePaths: [source.styles, 'node_modules'] }).on('error', sass.logError))
   .pipe(postcss([mqpacker({ sort: true }), autoprefixer()]))
-  .pipe(gif(IS_PROD, postcss([cssnano()])))
   .pipe(gif(IS_PROD, concat('app.min.css')))
-  .pipe(gif(!IS_PROD, sourcemaps.write()))
+  .pipe(sourcemaps.write())
+  .pipe(gif(IS_PROD, postcss([cssnano()])))
   .pipe(dest(dist.styles))
   .pipe(browsersync.stream())
 }
 
 function scripts() {
-  return src(`${source.scripts}/*.js`)
+  return src(`${source.scripts}/**/!(vendors)*.js`)
   .pipe(plumber())
-  .pipe(gif(!IS_PROD, sourcemaps.init()))
+  .pipe(concat('app.js'))
+  .pipe(src(`${source.scripts}/vendors.js`))
+  .pipe(sourcemaps.init())
   .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
-  .pipe(gif(IS_PROD, uglify()))
+  .pipe(order(['vendors.js', '**/*.js']))
   .pipe(gif(IS_PROD, concat('app.min.js')))
-  .pipe(gif(!IS_PROD, sourcemaps.write()))
+  .pipe(sourcemaps.write())
+  .pipe(gif(IS_PROD, uglify()))
   .pipe(dest(dist.scripts))
   .pipe(browsersync.stream())
 }

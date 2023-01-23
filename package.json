@@ -30,6 +30,7 @@
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^8.0.0",
     "gulp-include": "^2.4.1",
+    "gulp-order": "^1.2.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.1",
     "gulp-pug": "^5.0.0",
