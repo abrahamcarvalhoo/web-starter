@@ -1,3 +1,3 @@
-//=include demo/demo.js
+import './demo/demo'
 
 console.log('vendors')

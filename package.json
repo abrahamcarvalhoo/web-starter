@@ -18,6 +18,9 @@
   "author": "Abraham Carvalho",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.11",
     "css-mqpacker": "^7.0.0",
@@ -34,14 +37,18 @@
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.1",
     "gulp-pug": "^5.0.0",
+    "gulp-rollup-each": "^4.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
+    "gulp-terser": "^2.1.0",
     "sass": "^1.57.1"
   },
   "dependencies": {
-    "jquery": "^3.6.3",
-    "normalize.css": "^8.0.1"
+    "@popperjs/core": "^2.11.6",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.4.6"
   },
   "browserslist": [
     "defaults"

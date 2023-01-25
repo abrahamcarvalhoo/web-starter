@@ -18,7 +18,11 @@ import postcss from 'gulp-postcss'
 import mqpacker from 'css-mqpacker'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
-import uglify from 'gulp-uglify'
+import rollup from 'gulp-rollup-each'
+import { babel } from '@rollup/plugin-babel'
+import commonjs from '@rollup/plugin-commonjs'
+import nodeResolve from '@rollup/plugin-node-resolve'
+import terser from 'gulp-terser'
 import imagemin from 'gulp-imagemin'
 import browsersync from 'browser-sync'
 import config from './config.json' assert { type: 'json' }
@@ -73,16 +77,14 @@ function styles() {
 }
 
 function scripts() {
-  return src([`${source.scripts}/app.js`, `${source.scripts}/**/!(vendors)*.js`])
+  return src([`${source.scripts}/vendors.js`, `${source.scripts}/app.js`])
   .pipe(plumber())
-  .pipe(concat('app.js'))
-  .pipe(src(`${source.scripts}/vendors.js`))
   .pipe(sourcemaps.init())
   .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
-  .pipe(order(['vendors.js']))
-  .pipe(gif(IS_PROD, concat('app.min.js')))
+  .pipe(rollup({plugins: [ babel({ babelHelpers: 'bundled' }), commonjs(), nodeResolve() ] }, { format: 'umd' }))
   .pipe(sourcemaps.write())
-  .pipe(gif(IS_PROD, uglify()))
+  .pipe(gif(IS_PROD, concat('app.min.js')))
+  .pipe(gif(IS_PROD, terser()))
   .pipe(changed())
   .pipe(dest(dist.scripts))
   .pipe(browsersync.stream())
