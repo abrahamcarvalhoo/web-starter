@@ -4,7 +4,7 @@ import { deleteAsync } from 'del'
 import pug from 'gulp-pug'
 import gif from 'gulp-if'
 import data from 'gulp-data'
-import order from 'gulp-order'
+import merge from 'merge-stream'
 import concat from 'gulp-concat'
 import include from 'gulp-include'
 import plumber from 'gulp-plumber'
@@ -21,14 +21,14 @@ import cssnano from 'cssnano'
 import rollup from 'gulp-rollup-each'
 import { babel } from '@rollup/plugin-babel'
 import commonjs from '@rollup/plugin-commonjs'
-import nodeResolve from '@rollup/plugin-node-resolve'
+import resolve from '@rollup/plugin-node-resolve'
 import terser from 'gulp-terser'
 import imagemin from 'gulp-imagemin'
 import browsersync from 'browser-sync'
 import config from './config.json' assert { type: 'json' }
 browsersync.create()
 
-let IS_PROD = false
+let IS_PROD = process.env.NODE_ENV === 'production'
 
 const source = {
   path: 'src',
@@ -59,15 +59,15 @@ function views() {
 }
 
 function styles() {
-  return src([`${source.styles}/app.sass`, `${source.styles}/**/!(_)*.sass`, `!${source.styles}/vendors.sass`])
-  .pipe(plumber())
-  .pipe(sourcemaps.init())
+  const app = src([`${source.styles}/**/!(_)*.sass`, `!${source.styles}/vendors.sass`])
   .pipe(sass({ includePaths: [source.styles, 'node_modules'] }).on('error', sass.logError))
   .pipe(concat('app.css'))
-  .pipe(src(`${source.styles}/vendors.sass`))
+  const vendors = src(`${source.styles}/vendors.sass`)
   .pipe(sass({ includePaths: [source.styles, 'node_modules'] }).on('error', sass.logError))
+  return merge(app, vendors)
+  .pipe(plumber())
+  .pipe(sourcemaps.init())
   .pipe(postcss([mqpacker({ sort: true }), autoprefixer()]))
-  .pipe(order(['vendors.css']))
   .pipe(gif(IS_PROD, concat('app.min.css')))
   .pipe(sourcemaps.write())
   .pipe(gif(IS_PROD, postcss([cssnano()])))
@@ -77,13 +77,18 @@ function styles() {
 }
 
 function scripts() {
-  return src([`${source.scripts}/vendors.js`, `${source.scripts}/app.js`])
+  const app = src([`${source.scripts}/**/!(_)*.js`, `!${source.scripts}/vendors.js`])
+  .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
+  .pipe(rollup({ plugins: [babel({ babelHelpers: 'bundled' }), commonjs(), resolve()] }, { format: 'umd' }))
+  .pipe(concat('app.js'))
+  const vendors = src([`${source.scripts}/vendors.js`])
+  .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
+  .pipe(rollup({ plugins: [babel({ babelHelpers: 'bundled' }), commonjs(), resolve()] }, { format: 'umd' }))
+  return merge(app, vendors)
   .pipe(plumber())
   .pipe(sourcemaps.init())
-  .pipe(include({ includePaths: [source.scripts, 'node_modules'] }))
-  .pipe(rollup({plugins: [ babel({ babelHelpers: 'bundled' }), commonjs(), nodeResolve() ] }, { format: 'umd' }))
-  .pipe(sourcemaps.write())
   .pipe(gif(IS_PROD, concat('app.min.js')))
+  .pipe(sourcemaps.write())
   .pipe(gif(IS_PROD, terser()))
   .pipe(changed())
   .pipe(dest(dist.scripts))
