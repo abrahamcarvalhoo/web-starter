@@ -1,2 +1,17 @@
-.footer
-  background-color: #fff
+#backtotop {
+  position: fixed
+  right: 25px
+  bottom: 25px
+  z-index: 1
+  opacity: 1
+  transition: opacity 0.5s
+
+  &:focus {
+    box-shadow: none
+  }
+
+  &.hidden {
+    z-index: -1
+    opacity: 0
+  }
+}
